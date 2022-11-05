@@ -11,7 +11,7 @@ const School = () => {
         <Link to="/work">Work</Link>
       </nav>
       <p>
-        School projets go here.
+        School projects go here.
       </p>
     </div>
   )
