@@ -13,14 +13,14 @@ const Games = () => {
       </nav>
       {/* Project Section */}
       <div className="projects">
-        {/* PIXELATE */}
+        {/* DEATH HOUSE */}
         <div className="project">
           <p>
-            Pixelate
+            Curse of Strahd: Durst Manor
             <br />
-            Add rows and choose from 12 different colors to create your own pixel art. 
+            A multiple choice adventure game based on the introduction to the popular Curse of Strahd campagin setting from Dungeons and Dragons. To start you will choose a character ability: Strength, Dexterity, Charisma, or Luck. Use your ability to navigate through Durst Manor to uncover the truth and get out alive!
             <br />
-            <a href="https://pixel8game.netlify.app" target="_blank">Click here to play now!</a>
+            <a href="https://death-house.netlify.app" target="_blank">Click here to play now!</a>
           </p>
         </div>
         {/* CONNECT FOUR */}
@@ -33,14 +33,14 @@ const Games = () => {
             <a href="https://connect4bydrewford.netlify.app" target="_blank">Click here to play now!</a>
           </p>
         </div>
-        {/* DEATH HOUSE */}
+        {/* PIXELATE */}
         <div className="project">
           <p>
-            Curse of Strahd: Durst Manor
+            Pixelate
             <br />
-            A multiple choice adventure game based on the introduction to the popular Curse of Strahd campagin setting from Dungeons and Dragons. To start you will choose a character ability: Strength, Dexterity, Charisma, or Luck. Use your ability to navigate through Durst Manor to uncover the truth and get out alive!
+            Add rows and choose from 12 different colors to create your own pixel art. 
             <br />
-            <a href="https://death-house.netlify.app" target="_blank">Click here to play now!</a>
+            <a href="https://pixel8game.netlify.app" target="_blank">Click here to play now!</a>
           </p>
         </div>
         {/* Puppy Clicker */}

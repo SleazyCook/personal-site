@@ -12,7 +12,7 @@ const School = () => {
         <Link to="/work">Work</Link>
       </nav>
       <p>
-        School projects go here.
+        Projects from my Fullstack Web Development course at Fullstack Academy:
       </p>
       {/* Project Section */}
       <div className="projects">
@@ -33,7 +33,27 @@ const School = () => {
             <br />
             My introduction to react.js, react-router, and front-end work with an API. 
             <br />
-            <a href="https://puppybowlbydrewford.netlify.app/about" target="_blank">Click here to see this project</a>
+            <a href="https://puppybowlbydrewford.netlify.app" target="_blank">Click here to see this project</a>
+          </p>
+        </div>
+        {/* Wizard News */}
+        <div className="project">
+          <p>
+            Wizard News
+            <br />
+            First project using Express.js working through a guided project with a team. 
+            <br />
+            <a href="https://wizardnewswithpnd.fly.dev" target="_blank">Click here to see this project</a>
+          </p>
+        </div>
+        {/* First personal site */}
+        <div className="project">
+          <p>
+            Personal Site
+            <br />
+            My first personal website using only HTML and CSS.
+            <br />
+            <a href="https://drews-first-site.netlify.app/index.html" target="_blank">Click here to see this project</a>
           </p>
         </div>
       </div>
