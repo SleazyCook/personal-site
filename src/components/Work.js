@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Portfolio = () => {
+const Work = () => {
   return (
     <div>
       <nav>
@@ -11,10 +11,10 @@ const Portfolio = () => {
         <Link to="/work">Work</Link>
       </nav>
       <p>
-        Passion Projects go here.
+        Freelance work goes here.
       </p>
     </div>
   )
 }
 
-export default Portfolio;
+export default Work;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const Portfolio = () => {
+const School = () => {
   return (
     <div>
       <nav>
@@ -11,10 +11,10 @@ const Portfolio = () => {
         <Link to="/work">Work</Link>
       </nav>
       <p>
-        Passion Projects go here.
+        School projets go here.
       </p>
     </div>
   )
 }
 
-export default Portfolio;
+export default School;
