@@ -33,6 +33,26 @@ const Games = () => {
             <a href="https://connect4bydrewford.netlify.app" target="_blank">Click here to play now!</a>
           </p>
         </div>
+        {/* DEATH HOUSE */}
+        <div className="project">
+          <p>
+            Curse of Strahd: Durst Manor
+            <br />
+            A multiple choice adventure game based on the introduction to the popular Curse of Strahd campagin setting from Dungeons and Dragons. To start you will choose a character ability: Strength, Dexterity, Charisma, or Luck. Use your ability to navigate through Durst Manor to uncover the truth and get out alive!
+            <br />
+            <a href="https://death-house.netlify.app" target="_blank">Click here to play now!</a>
+          </p>
+        </div>
+        {/* Puppy Clicker */}
+        <div>
+          <p>
+            Puppy Clicker
+            <br />
+            A cute incremental, or clicker, game with a puppy theme! Click or tap the puppy icon to start building resources and use those resources to purchase passive producers until you have a ridiculous amount of puppies!
+            <br />
+            <a href="https://puppy-clicker.netlify.app" target="_blank">Click here to play now!</a>
+          </p>
+        </div>
       </div>
     </div>
   )
