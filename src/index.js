@@ -5,6 +5,9 @@ import About from './components/About';
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
+import Games from './components/Games';
+import School from './components/School';
+import Work from './components/Work';
 
 const appElement = document.getElementById('app');
 const root = createRoot(appElement);
@@ -26,6 +29,18 @@ export const router = createBrowserRouter([
       {
         path: "portfolio",
         element: <Portfolio />
+      },
+      {
+        path: "games",
+        element: <Games />
+      },
+      {
+        path: "work",
+        element: <Work />
+      },
+      {
+        path: "school",
+        element: <School />
       }
     ]
   }
