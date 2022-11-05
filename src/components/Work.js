@@ -1,16 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import ProjectNav from './ProjectNav';
 
 const Work = () => {
   return (
     <div>
       <br />
-      <nav>
-        <Link to="/portfolio">Passion</Link>
-        <Link to="/games">Games</Link>
-        <Link to="/school">School</Link>
-        <Link to="/work">Work</Link>
-      </nav>
+      <ProjectNav />
       <p>
         Freelance work goes here.
       </p>

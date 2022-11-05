@@ -1,0 +1,15 @@
+.projects {
+  background-color: black;
+}
+
+.project {
+  background-color: white;
+}
+
+.project-title {
+  color: red;
+}
+
+.project-description {
+  border: 3px solid white;
+}
