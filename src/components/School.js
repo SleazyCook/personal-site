@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 const School = () => {
   return (
     <div>
+      <br />
       <nav>
         <Link to="/portfolio">Passion</Link>
         <Link to="/games">Games</Link>
