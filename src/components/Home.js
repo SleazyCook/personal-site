@@ -2,13 +2,15 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <br />
-      "There is art and beauty and power in the primal images of fantasy" - Guillermo del Toro
+      <div className="quote">
+      There is art and beauty and power 
       <br />
+      in the primal images of fantasy
       <br />
-
-      <br />
+      - Guillermo del Toro
+      </div>
     </div>
   )
 }

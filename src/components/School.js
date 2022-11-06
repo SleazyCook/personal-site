@@ -6,9 +6,9 @@ const School = () => {
     <div>
       <br />
       <ProjectNav />
-      <p>
+      {/* <p>
         Projects from my Fullstack Web Development course at Fullstack Academy:
-      </p>
+      </p> */}
       {/* Project Section */}
       <div className="projects">
         {/* Drewford's List */}
