@@ -2,3 +2,19 @@
   color: pink;
   background-color: #1e1e1e;
 }
+
+header {
+  text-align: center;
+}
+
+#main-nav {
+  text-align: center;
+}
+
+#social-icons {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}

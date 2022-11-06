@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const ProjectNav = () => {
   return (
-    <nav>
+    <nav id="project-nav">
       <Link to="/portfolio">Passion</Link>
       <Link to="/games">Games</Link>
       <Link to="/school">School</Link>
