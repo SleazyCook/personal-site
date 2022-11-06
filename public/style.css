@@ -1,7 +1,14 @@
-/* APP.JS */
+/* FONTS */
+/* author font */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+/* quote font */
 @import url(//db.onlinewebfonts.com/c/3d0de438052b4d05da1dd84077e45619?family=ReallyBigShoeNFW01-Regular);
 
+/* backup quote font */
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+/* APP.JS */
 
 * {
   color: pink;
@@ -54,8 +61,14 @@ footer {
 
 .quote {
   color: #BC6FF1;
-  font-family: "ReallyBigShoeNFW01-Regular";
+  font-family: "ReallyBigShoeNFW01-Regular", "Shalimar";
   font-size: xx-large;
+}
+
+@media (max-width: 800px) {
+  .quote {
+    color: purple;
+  }
 }
 
 /* ABOUT PAGE */
