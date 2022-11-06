@@ -3,13 +3,13 @@
 }
 
 .project {
-  background-color: white;
+  margin: 1em;
 }
 
 .project-title {
   color: red;
 }
 
-.project-description {
+/* .project-description {
   border: 3px solid white;
-}
+} */

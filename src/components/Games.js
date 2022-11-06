@@ -42,7 +42,7 @@ const Games = () => {
           </div>
         </div>
         {/* Puppy Clicker */}
-        <div>
+        <div className="project">
           <div className="project-title">
             Puppy Clicker
           </div>
