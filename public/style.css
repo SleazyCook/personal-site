@@ -37,6 +37,19 @@ header a {
 
 #main-nav {
   text-align: center;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  border: 5px solid gray;
+  margin-right: 35vw;
+  margin-left: 37vw;
+}
+
+.nav-item {
+  color: white;
+  font-size: large;
+  text-decoration: none;
+  border: 3px solid white;
 }
 
 #social-icons {
@@ -65,11 +78,11 @@ footer {
   font-size: xx-large;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .quote {
     color: purple;
   }
-}
+} */
 
 /* ABOUT PAGE */
 
