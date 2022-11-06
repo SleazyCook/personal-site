@@ -1,3 +1,5 @@
+/* APP.JS */
+
 * {
   color: pink;
   background-color: #1e1e1e;
@@ -17,4 +19,25 @@ header {
 
 footer {
   text-align: center;
+}
+
+/* ABOUT PAGE */
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid green;
+}
+
+.languages {
+  color: white;
+  display: flex;
+  /* width: 400px; */
+  max-width: 800px;
+  overflow: wrap;
+  border: 3px solid pink;
+}
+
+.language {
+  text-align: center;;
 }
