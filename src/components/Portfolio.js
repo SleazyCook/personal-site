@@ -46,6 +46,7 @@ const Portfolio = () => {
           </div>
           <div className="project-description">
             Buy, Sell, or Trade with neighbors you already know in the Houston Gardens area. A Craigslist-clone specifically for a neighborhood in Houston, Texas.
+            <br />
             <a href="https://homesteadlist.netlify.app" target="_blank">Click here to see this project</a> 
           </div>
         </div>
