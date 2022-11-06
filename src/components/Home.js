@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      del Toro quote
+      "There is art and beauty and power in the primal images of fantasy" - Guillermo del Toro
       <br />
       Basic resume statement
       <br />
