@@ -95,12 +95,12 @@ footer {
 .languages {
   color: white;
   display: flex;
-  /* width: 400px; */
   max-width: 800px;
-  overflow: wrap;
+  flex-wrap: wrap;
   border: 3px solid pink;
 }
 
 .language {
+  display: flex;
   text-align: center;;
 }
