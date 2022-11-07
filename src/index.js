@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio';
 import Games from './components/Games';
 import School from './components/School';
 import Work from './components/Work';
+import Preview from './components/Preview';
 
 const appElement = document.getElementById('app');
 const root = createRoot(appElement);
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
       {
         path: "school",
         element: <School />
+      },
+      {
+        path: "preview",
+        element: <Preview />
       }
     ]
   }

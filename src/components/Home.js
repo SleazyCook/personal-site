@@ -1,4 +1,6 @@
 import React from 'react';
+import Preview from './Preview'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <br />
       - Guillermo del Toro
       </div>
+      <Link to="preview">Project Preview</Link>
+      {/* <Preview /> */}
     </div>
   )
 }

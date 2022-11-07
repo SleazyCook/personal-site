@@ -96,7 +96,8 @@ footer {
 #skills {
   text-align: center;
   font-family: "ReallyBigShoeNFW01-Regular";
-  color: #BC6FF1;
+  color: white;
+  font-size: x-large;
 }
 
 .languages {
@@ -111,7 +112,7 @@ footer {
   display: flex;
   text-align: center;
   flex-direction: column;
-  color: #BC6FF1;
+  color: white;
 }
 
 @media (max-width: 800px) {
