@@ -5,7 +5,8 @@ const About = () => {
     <div className="about-container">
 
       Fullstack Academy graduate  seeking first full-time position as a developer
-      <br /><br />
+      <br />
+      <p id="skills">Skills</p>
       <div className="languages">
         <div className="language">
           HTML
