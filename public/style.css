@@ -41,8 +41,7 @@ header a {
   width: 200px;
   justify-content: space-between;
   border: 5px solid gray;
-  margin-right: 35vw;
-  margin-left: 37vw;
+  margin: auto;
 }
 
 .nav-item {
@@ -89,6 +88,7 @@ footer {
 .about-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border: 5px solid green;
 }
 
@@ -97,10 +97,18 @@ footer {
   display: flex;
   max-width: 800px;
   flex-wrap: wrap;
-  border: 3px solid pink;
+  margin: auto;
 }
 
 .language {
   display: flex;
-  text-align: center;;
+  text-align: center;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .language img {
+    width: 50px;
+    height: 50px;
+  }
 }
