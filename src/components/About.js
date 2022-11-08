@@ -1,6 +1,5 @@
 import React from 'react';
 import Skills from './Skills';
-import Story from './Story';
 import AboutNav from './AboutNav';
 
 const About = () => {
@@ -17,8 +16,10 @@ const About = () => {
 
       {/* media query where Skills is on side on desktop / on top when on mobile */}
       <p className='text-center text-2xl'>Skills</p>
+      
       <Skills />
 
+      <br />
       <div>
         <p className='text-center text-2xl'>Certifications</p>
         <p>Fullstack Academy</p>
