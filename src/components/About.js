@@ -1,17 +1,21 @@
 import React from 'react';
 import Skills from './Skills';
 import Story from './Story';
+import AboutNav from './AboutNav';
 
 const About = () => {
   return (
     <div className="about-container">
+      <br />
+      <AboutNav />
 
       <br />
-      <p className="text-center">
+      {/* <p className="text-center">
       Fullstack Academy graduate  seeking first full-time position as a developer
       </p>
-      <br />
+      <br /> */}
 
+      {/* media query where Skills is on side on desktop / on top when on mobile */}
       <p className='text-center text-2xl'>Skills</p>
       <Skills />
 
@@ -23,8 +27,7 @@ const About = () => {
         <p>freeCodeCamp</p>
       </div>
 
-      <p className='text-center text-2xl'>Story</p>
-      <Story />
+
 
     </div>
   )

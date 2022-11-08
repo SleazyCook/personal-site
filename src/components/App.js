@@ -5,9 +5,13 @@ import {Outlet} from 'react-router-dom';
 const App = () => {
   return (
     <div>
-
       <header className="text-center">
-        <h1 className='text-3xl'><a href="https://developedbydrewford.netlify.app">Developed by <span className='font-swash'>Drewford</span></a></h1>
+        <h1 className='text-3xl font-serif'><a href="https://developedbydrewford.netlify.app">
+          <span>Developed by </span>
+          <span className='font-swash'>Drewford</span>
+          <br />
+          <span className='text-lg overline'>Andrew Cook - Web Developer</span>
+        </a></h1>
       </header>
 
       <Navbar />
@@ -16,11 +20,11 @@ const App = () => {
 
       <br />
 
-      <footer className="text-center">
+      <footer className="text-center text-sm ">
         Built using React.js v6 and Tailwind CSS and hosted on Netlify.
         <br />
-        Developed by
-        <span id="author"> Drewford</span>
+        <span className='font-serif'> Developed by</span>
+        <span className='font-swash'> Drewford</span>
       </footer>
 
       {/* Social Links */}

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <br />
-      <div className="text-center">
+      <div className="text-center text-2xl">
       There is art and beauty and power 
       <br />
       in the primal images of fantasy

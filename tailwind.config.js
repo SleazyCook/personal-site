@@ -5,6 +5,13 @@ module.exports = {
   theme: {
     extend: {},
   },
+  theme: {
+    extend: {
+      fontFamily: {
+        swash: ['Berkshire Swash']
+      }
+    }
+  },
   plugins: [
     require('tailwind-scrollbar-hide')
   ],
