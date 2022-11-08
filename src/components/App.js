@@ -14,6 +14,7 @@ const App = () => {
         </a></h1>
       </header>
 
+      {/* nav bar on top somehow on desktop, media query to under header on mobile */}
       <Navbar />
 
       <Outlet context />
