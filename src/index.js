@@ -9,7 +9,7 @@ import Games from './components/Games';
 import School from './components/School';
 import Work from './components/Work';
 import Preview from './components/Preview';
-import Story from './components/Story';
+import Contact from './components/Contact';
 import "./index.css"
 
 const appElement = document.getElementById('app');
@@ -50,8 +50,8 @@ export const router = createBrowserRouter([
         element: <Preview />
       },
       {
-        path: "story",
-        element: <Story />
+        path: "contact",
+        element: <Contact />
       }
     ]
   }

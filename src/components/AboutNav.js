@@ -7,7 +7,7 @@ const AboutNav = () => {
       <div>
       <nav className="text-center space-x-4">
         <Link to="/about">Skills & Certificates</Link>
-        <Link to="/story">Contact & My Story</Link>
+        <Link to="/contact">Contact & My Story</Link>
       </nav>
     </div>
     </nav>
