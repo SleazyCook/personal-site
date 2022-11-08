@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div>
       <br />
       <div className="quote">
       There is art and beauty and power 
@@ -13,7 +13,7 @@ const Home = () => {
       <br />
       - Guillermo del Toro
       </div>
-      <Link to="preview">Project Preview</Link>
+      <Preview />
       {/* <Preview /> */}
     </div>
   )
