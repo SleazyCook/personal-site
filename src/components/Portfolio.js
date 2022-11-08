@@ -6,6 +6,7 @@ const Portfolio = () => {
     <div>
       <br />
       <ProjectNav />
+      <br />
       {/* Project Section */}
       <div className="projects">
         {/* Movie Mayhem */}

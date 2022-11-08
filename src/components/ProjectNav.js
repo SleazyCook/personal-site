@@ -8,7 +8,7 @@ const ProjectNav = () => {
         <Link to="/portfolio">Websites</Link>
         <Link to="/games">Games</Link>
         <Link to="/school">School</Link>
-        <Link to="/work">Freelance</Link>
+        <Link to="/freelance">Freelance</Link>
       </nav>
     </div>
 

@@ -6,6 +6,7 @@ const School = () => {
     <div>
       <br />
       <ProjectNav />
+      <br />
       {/* <p>
         Projects from my Fullstack Web Development course at Fullstack Academy:
       </p> */}
