@@ -1,78 +1,40 @@
-import React, {useState, useEffect, useRef} from 'react';
+
+import React from 'react';
+import {previewData} from "./PreviewImages";
+import {mainContainer} from "./styles.js";
+import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 const Preview = () => {
-  const [currentScrollPosition, setCurrentScrollPosition] = useState(0);
-  const [scrollAmount, setScrollAmount] = useState(320);
-  const sCont = useRef()
-  const hScroll = useRef()
-  const [maxScroll, setMaxScroll] = useState(0)
-  useEffect( () => {
-    setMaxScroll(-sCont.current.offsetWidth + hScroll.current.offsetWidth)
-  }, [sCont, hScroll])
-  // const [btnScrollLeft, setBtnScrollLeft] = useState(0);
 
-  // const sCont = document.querySelector(".storys-container");
-  // const hScroll = document.querySelector(".horizontal-scroll");
-  // const btnScrollLeft = document.getElementById("btn-scroll-left");
-  // const btnScrollRight = document.getElementById("btn-scroll-right");
+  const sliderLeft = () => {
+    const slider = document.getElementById('slider')
+    slider.scrollLeft = slider.scrollLeft - 500
+  }
 
-  // btnScrollLeft.style.opacity= "0";
-
-  // const maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
-  console.log("sCont:", sCont)
-  console.log("hScroll:", hScroll)
-  function scrollHorizontally(event){
-    setCurrentScrollPosition(currentScrollPosition + (currentScrollPosition * scrollAmount)) 
-
-    if(currentScrollPosition >= 0){
-      setCurrentScrollPosition(0)
-      event.target.style.opacity = 0;
-    } else {
-      event.target.style.opacity= 1;
-    }
-
-    if(currentScrollPosition <= maxScroll) {
-      setCurrentScrollPosition(maxScroll)
-      event.target.style.opacity = 0;
-    } else {
-      event.target.style.opacity= 1;
-    }
-
-    sCont.current.style.left = currentScrollPosition + "px"
+  const sliderRight = () => {
+    const slider = document.getElementById('slider')
+    slider.scrollLeft = slider.scrollLeft + 500
   }
 
   return(
-    <div>
-      <div className="body">
-        <div className="container">
-          <div className="horizontal-scroll" ref={hScroll}>
-            {/* left button */}
-            <button className="btn-scroll" id="btn-scroll-left" 
-            onClick={scrollHorizontally}><i className="fas fa-chevron-left"></i></button>
-            {/* right button */}
-            <button className="btn-scroll" id="btn-scroll-right" 
-            onClick={scrollHorizontally}><i className="fas fa-chevron-right"></i></button>
 
-            <div className="storys-container" ref={sCont}>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-              <div className="story-circle"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"/></div>
-            </div>
-          </div>
+    <div>
+      <br />
+      <div className='relative flex items-center'>
+        <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={sliderLeft} size={40} />
+        <div id='slider' className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth">
+          
+          {previewData.map((item) => (
+            <a href={item.link}>
+               <img
+              className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.img} alt="/" />
+            </a>
+          ))}
+
         </div>
+        <MdChevronRight className='opacity-50 cursor-pointer hover:opacity-100' onClick={sliderRight} size={40} />
       </div>
+
     </div>
   )
 }

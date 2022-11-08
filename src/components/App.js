@@ -13,7 +13,7 @@ const App = () => {
       <div id="social-icons">
         <br />
         {/* LinkedIn Link */}
-        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="50" wifth="50"></img></a>
+        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="50" width="50"></img></a>
         {/* spacer */}
         &nbsp;
         {/* Discord Link */}
