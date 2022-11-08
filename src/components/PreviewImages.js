@@ -11,7 +11,7 @@ export const previewData = [
   {
     id: 3,
     name: "Curse of Strahd: Durst Manor",
-    img: "https://i.imgur.com/kCDZeYi.png",
+    img: "https://i.imgur.com/q1UVNrk.png",
     link: "https://death-house.netlify.app"
   },
 
@@ -24,13 +24,13 @@ export const previewData = [
   {
     id: 5,
     name: "Connect 4",
-    img: "https://i.imgur.com/WnG7ixg.png",
+    img: "https://i.imgur.com/X1ltYe2.png",
     link: "https://connect4bydrewford.netlify.app"
   },
   {
     id: 6,
     name: "Pixelate",
-    img: "https://i.imgur.com/esB1RwG.png",
+    img: "https://i.imgur.com/GJcAJt4.png",
     link: "https://pixel8game.netlify.app"
   },
   {
