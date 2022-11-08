@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: {
     content: [
@@ -9,4 +11,11 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  theme: {
+    extend: {
+      fontFamily: {
+        swash: ['"Berkshire Swash"...defaultTheme.fontFamily.sans']
+      }
+    }
+  }
 }

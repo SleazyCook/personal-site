@@ -1,62 +1,66 @@
+import { useLinkClickHandler } from "react-router-dom";
+
 export const previewData = [
   {
     id: 1,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
+    name: "Puppy Clicker",
+    img: "https://i.imgur.com/L8uk5oR.png",
     link: "https://puppy-clicker.netlify.app"
   },
-  {
-    id: 2,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
-  },
+
   {
     id: 3,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Curse of Strahd: Durst Manor",
+    img: "https://i.imgur.com/kCDZeYi.png",
+    link: "https://death-house.netlify.app"
   },
+
   {
     id: 4,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Drewford's List",    
+    img: "https://i.imgur.com/mt4Idyv.png",
+    link: "https://drewfordslist.netlify.app"
   },
   {
     id: 5,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Connect 4",
+    img: "https://i.imgur.com/WnG7ixg.png",
+    link: "https://connect4bydrewford.netlify.app"
   },
   {
     id: 6,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Pixelate",
+    img: "https://i.imgur.com/esB1RwG.png",
+    link: "https://pixel8game.netlify.app"
   },
   {
     id: 7,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Wizard News",
+    img: "https://i.imgur.com/kXTLBtf.png",
+    link: "https://wizardnewswithpnd.fly.dev"
   },
   {
     id: 8,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Movie Mayhem",
+    img: "https://i.imgur.com/9zFb5XE.png",
+    link: "https://moviemayhem.netlify.app"
   },
   {
     id: 9,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Beyond the Book",
+    img: "https://i.imgur.com/8HhXvXE.png",
+    link: "https://beyondthebook.netlify.app"
   },
   {
     id: 10,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Homestead List",
+    img: "https://i.imgur.com/uOYKUJu.png",
+    link: "https://homesteadlist.netlify.app"
   },
   {
-    id: 11,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
-  },
-  {
-    id: 12,
-    img: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg",
-    link: "https://puppy-clicker.netlify.app"
+    id: 2,
+    name: "Puppy Bowl",
+    img: "https://i.imgur.com/f9opkZT.png",
+    link: "https://puppybowlbydrewford.netlify.app"
   }
 ]

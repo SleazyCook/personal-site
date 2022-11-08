@@ -1,7 +1,6 @@
-
 import React from 'react';
 import {previewData} from "./PreviewImages";
-import {mainContainer} from "./styles.js";
+// import {mainContainer} from "./styles.js";
 import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 const Preview = () => {
@@ -25,7 +24,7 @@ const Preview = () => {
         <div id='slider' className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth">
           
           {previewData.map((item) => (
-            <a href={item.link}>
+            <a href={item.link} target="_blank">
                <img
               className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.img} alt="/" />
             </a>
