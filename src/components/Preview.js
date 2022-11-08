@@ -21,7 +21,7 @@ const Preview = () => {
       <br />
       <div className='relative flex items-center'>
         <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={sliderLeft} size={40} />
-        <div id='slider' className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth">
+        <div id='slider' className="w-full h-full overflow-x-scroll scroll scrollbar-hide whitespace-nowrap scroll-smooth">
           
           {previewData.map((item) => (
             <a href={item.link} target="_blank">

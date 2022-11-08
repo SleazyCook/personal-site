@@ -4,7 +4,7 @@ export const previewData = [
   {
     id: 1,
     name: "Puppy Clicker",
-    img: "https://i.imgur.com/L8uk5oR.png",
+    img: "https://i.imgur.com/L8uk5oR.png?1",
     link: "https://puppy-clicker.netlify.app"
   },
 

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <br />
-      <div className="quote">
+      <div className="text-center">
       There is art and beauty and power 
       <br />
       in the primal images of fantasy

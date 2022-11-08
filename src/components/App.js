@@ -14,6 +14,8 @@ const App = () => {
 
       <Outlet context />
 
+      <br />
+
       <footer className="text-center">
         Built using React.js v6 and Tailwind CSS and hosted on Netlify.
         <br />
@@ -22,13 +24,13 @@ const App = () => {
       </footer>
 
       {/* Social Links */}
-      <div>
+      <div className="flex justify-center">
         {/* LinkedIn Link */}
-        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="50" width="50"></img></a>
+        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="35" width="35"></img></a>
         {/* spacer */}
         &nbsp;
         {/* Discord Link */}
-        <a href="https://discord.gg/SAgrmBXjeV" target="_blank"><img alt="discord logo" src="https://pnggrid.com/wp-content/uploads/2021/05/Discord-Logo-Square-1024x1024.png" height="50" width="50"></img></a>
+        <a href="https://discord.gg/SAgrmBXjeV" target="_blank"><img alt="discord logo" src="https://pnggrid.com/wp-content/uploads/2021/05/Discord-Logo-Square-1024x1024.png" height="35" width="35"></img></a>
       </div>
 
     </div>
