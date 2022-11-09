@@ -4,6 +4,7 @@ const About = () => {
   return (
     <div>
       <br />
+      <br />
       <p className='text-center text-2xl underline'>My Story</p>
       <br />
       <p className="max-w-[600px] mx-auto">
@@ -32,7 +33,7 @@ const About = () => {
 
       <br />
       <br />
-      
+
     </div>
   )
 }

@@ -7,6 +7,7 @@ const Skills = () => {
     <div>
 
       <br />
+      <br />
       <div id="flex-container" className="flex flex-col md:flex-row md:justify-center">
         {/* flex item toprow/leftcol */}
         <div>

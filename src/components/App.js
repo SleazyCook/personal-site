@@ -46,6 +46,9 @@ const App = () => {
           <a href="https://www.codewars.com/users/sleazycook" target="_blank"><img alt="code wars icon" src="https://www.codewars.com/packs/assets/logo.61192cf7.svg" heigh="35" width="35"></img></a>
         </div>
 
+        <br />
+        <br />
+
       </div>
 
 
