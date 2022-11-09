@@ -4,7 +4,6 @@ import ProjectNav from './ProjectNav';
 const School = () => {
   return (
     <div>
-      <br />
       <ProjectNav />
       <br />
       {/* <p>

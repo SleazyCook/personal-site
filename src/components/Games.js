@@ -5,8 +5,6 @@ const Games = () => {
   return (
     <div>
       <br />
-      <ProjectNav />
-      <br />
       {/* Project Section */}
       <div className="projects">
         {/* DEATH HOUSE */}

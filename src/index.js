@@ -2,9 +2,10 @@ import {createRoot} from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import App from './components/App';
 import About from './components/About';
+import Skills from './components/Skills';
 import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+import Websites from './components/Websites';
 import Games from './components/Games';
 import School from './components/School';
 import Freelance from './components/Freelance';
@@ -30,8 +31,12 @@ export const router = createBrowserRouter([
         element: <About />
       },
       {
-        path: "portfolio",
-        element: <Portfolio />
+        path: "skills",
+        element: <Skills />
+      },
+      {
+        path: "websites",
+        element: <Websites />
       },
       {
         path: "games",

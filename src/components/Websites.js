@@ -1,11 +1,9 @@
 import React from 'react';
 import ProjectNav from './ProjectNav';
 
-const Portfolio = () => {
+const Websites = () => {
   return (
     <div>
-      <br />
-      <ProjectNav />
       <br />
       {/* Project Section */}
       <div className="projects">
@@ -56,4 +54,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio;
+export default Websites;

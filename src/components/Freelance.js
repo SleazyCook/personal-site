@@ -4,7 +4,6 @@ import ProjectNav from './ProjectNav';
 const Freelance = () => {
   return (
     <div>
-      <br />
       <ProjectNav />
       <br />
       <p>

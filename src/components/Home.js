@@ -5,13 +5,15 @@ const Home = () => {
   return (
     <div>
       <br />
-      <div className="text-center text-2xl ">
+      {/* <div className="text-center text-2xl ">
         There is art and beauty and power 
         <br />
         in the primal images of fantasy
         <br />
         - Guillermo del Toro
-      </div>
+      </div> */}
+
+      <img className="mx-auto" alt="del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
       
       {/* <br /> */}
 

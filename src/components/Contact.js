@@ -1,14 +1,12 @@
 import React from 'react';
 import AboutNav from './AboutNav';
 import ContactDetails from './ContactDetails';
-import Story from './Story';
+import Story from './About';
 
 const Contact = () => {
   return (
     <div>
 
-      <br />
-      <AboutNav />
       <br />
 
       {/* media query where Contact is on side on desktop / on top when on mobile */}
@@ -16,8 +14,21 @@ const Contact = () => {
       <ContactDetails />
 
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      {/* <br />
       <p className='text-center text-2xl'>Story</p>
-      <Story />
+      <Story /> */}
     </div>
   )
 }
