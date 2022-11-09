@@ -3,7 +3,10 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <p>
+      <br />
+      <p className='text-center text-2xl underline'>My Story</p>
+      <br />
+      <p className="max-w-[600px] mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu leo orci. Pellentesque mattis velit est, semper mattis enim euismod maximus. Quisque augue turpis, iaculis vel pellentesque nec, consequat nec ligula. Quisque sodales metus neque, et sollicitudin nibh lacinia a. Donec nisi justo, ullamcorper eu molestie at, pulvinar sed dolor. Nullam dignissim urna odio, et eleifend est posuere eget. Ut ultrices dictum hendrerit. Etiam eu metus id justo euismod cursus. Praesent maximus odio hendrerit, laoreet dolor sit amet, fringilla nisl. Curabitur quis elit auctor ante egestas condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
         <br />

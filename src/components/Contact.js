@@ -3,6 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="text-center text-xl">
+      <br />
       Andrew Cook
       <br />
       Houston, TX 77016

@@ -9,7 +9,7 @@ const Skills = () => {
       <br />
       <div id="flex-container" className="flex flex-col md:flex-row md:justify-center">
         {/* flex item toprow/leftcol */}
-        <div >
+        <div>
           <p className='text-center text-2xl underline'>Skills</p>
           <SkillsIcons clasName="flex" />
         </div>

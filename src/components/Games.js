@@ -5,7 +5,7 @@ const Games = () => {
     <div>
       <br />
       {/* Project Section */}
-      <div className="projects">
+      <div className="max-w-[600px] mx-auto">
         {/* DEATH HOUSE */}
         <div className="project">
           <div className="project-title">

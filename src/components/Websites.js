@@ -5,7 +5,7 @@ const Websites = () => {
     <div>
       <br />
       {/* Project Section */}
-      <div className="projects">
+      <div className="max-w-[600px] mx-auto">
         {/* Movie Mayhem */}
         <div className="project">
           <div className="project-title">
