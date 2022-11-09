@@ -40,30 +40,23 @@ const Certs = () => {
 
         <br />
 
-        <li>
+        {/* <li>
           <p><b>Computer Science Career Path</b></p>
           <p>Certificate of Completion</p>
           <p>Issued: December 6th, 2022</p>
           <p>codecademy</p>
-        </li>
+        </li> */}
 
         <br />
 
-        <li>
+        {/* <li>
           <p><b>Computer Science Career Path</b></p>
           <p>Certificate of Completion</p>
           <p>Issued: December 6th, 2022</p>
           <p>codecademy</p>
-        </li>
+        </li> */}
 
         <br />
-
-        <li>
-          <p><b>Computer Science Career Path</b></p>
-          <p>Certificate of Completion</p>
-          <p>Issued: December 6th, 2022</p>
-          <p>codecademy</p>
-        </li>
       </ul>
 
     </div>
