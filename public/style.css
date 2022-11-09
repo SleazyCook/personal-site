@@ -17,6 +17,12 @@ html {
   background-attachment: fixed;
 }
 
+#app {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+}
+
 /* #title {
   position: absolute;
   top: 50%;
