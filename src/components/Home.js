@@ -3,7 +3,7 @@ import Preview from './Preview'
 
 const Home = () => {
   return (
-    <div>
+    <div id="home-container" className="bg-black">
       <br />
       {/* <div className="text-center text-2xl ">
         There is art and beauty and power 
@@ -12,7 +12,6 @@ const Home = () => {
         <br />
         - Guillermo del Toro
       </div> */}
-
       <img className="mx-auto" alt="del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
       
       {/* <br /> */}

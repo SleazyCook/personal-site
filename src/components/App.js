@@ -16,9 +16,11 @@ const App = () => {
 
       {/* nav bar on top somehow on desktop, media query to under header on mobile */}
       <Navbar />
+      <br />
+      <br />
+      <Outlet context />
 
-      <Outlet context classname="bg-black"/>
-
+      <br />
       <br />
 
       <footer className="text-center text-sm ">
