@@ -34,7 +34,7 @@ const App = () => {
         </footer>
 
         {/* Social Links */}
-        <div className="flex justify-center">
+        <div className="flex justify-center pt-[5px]">
           {/* LinkedIn Link */}
           <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in icon" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height="35" width="35"></img></a>
           {/* spacer */}
