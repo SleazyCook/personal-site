@@ -2,18 +2,26 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
+    <div className="text-center text-xl">
       Andrew Cook
       <br />
       Houston, TX 77016
       <br />
-      (000) google phone num
+      developedbydrewford@gmail.com
       <br />
-      https://www.linkedin.com/in/developedbydrewford/
+      (956) 278-0093
       <br />
-      https://www.codewars.com/users/sleazycook
+      <a className="underline" href="https://www.linkedin.com/in/developedbydrewford/">
+        LinkedIn
+      </a>
+      
       <br />
-      freelance link 
+      <a className="underline" href="https://www.codewars.com/users/sleazycook">
+        Code Wars
+      </a>
+      
+      <br />
+      ( freelance link )
       <br />
 
     </div>
