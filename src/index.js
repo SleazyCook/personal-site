@@ -7,8 +7,6 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import Websites from './components/Websites';
 import Games from './components/Games';
-import School from './components/School';
-import Freelance from './components/Freelance';
 import Preview from './components/Preview';
 import Contact from './components/Contact';
 import "./index.css"
@@ -41,14 +39,6 @@ export const router = createBrowserRouter([
       {
         path: "games",
         element: <Games />
-      },
-      {
-        path: "freelance",
-        element: <Freelance />
-      },
-      {
-        path: "school",
-        element: <School />
       },
       {
         path: "preview",
