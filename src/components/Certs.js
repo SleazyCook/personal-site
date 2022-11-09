@@ -40,6 +40,16 @@ const Certs = () => {
 
         <br />
 
+
+        <p className='text-center text-2xl underline'>
+          Code Wars
+        </p>
+
+        <div className="flex text">
+          <a className="mx-auto" target="_blank" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/sleazycook/badges/micro" alt="codewars badge micro" /></a>
+        </div>
+
+
         {/* <li>
           <p><b>Computer Science Career Path</b></p>
           <p>Certificate of Completion</p>

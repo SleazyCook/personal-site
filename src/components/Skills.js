@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutNav from './AboutNav';
 import SkillsIcons from './SkillsIcons';
 import Certs from './Certs';
 

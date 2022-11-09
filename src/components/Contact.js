@@ -1,34 +1,21 @@
 import React from 'react';
-import AboutNav from './AboutNav';
-import ContactDetails from './ContactDetails';
-import Story from './About';
 
 const Contact = () => {
   return (
     <div>
-
+      Andrew Cook
+      <br />
+      Houston, TX 77016
+      <br />
+      (000) google phone num
+      <br />
+      https://www.linkedin.com/in/developedbydrewford/
+      <br />
+      https://www.codewars.com/users/sleazycook
+      <br />
+      freelance link 
       <br />
 
-      {/* media query where Contact is on side on desktop / on top when on mobile */}
-      <p className='text-center text-2xl'>Contact</p>
-      <ContactDetails />
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
-      {/* <br />
-      <p className='text-center text-2xl'>Story</p>
-      <Story /> */}
     </div>
   )
 }

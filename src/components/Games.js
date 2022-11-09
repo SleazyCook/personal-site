@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectNav from './ProjectNav';
 
 const Games = () => {
   return (
