@@ -17,9 +17,9 @@ const Preview = () => {
 
   return(
               // max-w-[xxxpx]
-    <div className=" flex self-center">
+    <div >
       <br />
-      <div className='flex items-center self-center max-w-[1000px]'>
+      <div className='flex items-center self-center max-w-[1000px] border-white'>
         <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={sliderLeft} size={40} />
         {/* scrollbar hide used install (npm install tailwind-scrollbar-hide) and plugin (tailwind.config.js) */}
         <div id='slider' className="w-full h-full overflow-x-scroll scroll scrollbar-hide whitespace-nowrap scroll-smooth">
