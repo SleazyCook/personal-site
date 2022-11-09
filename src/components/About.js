@@ -10,18 +10,18 @@ const About = () => {
       <AboutNav />
 
       <br />
-      <div id="flex-container" className="flex flex-col md:flex-row">
+      <div id="flex-container" className="flex flex-col md:flex-row md:justify-center">
         {/* flex item toprow/leftcol */}
         <div >
-          <p className='text-center text-2xl'>Skills</p>
+          <p className='text-center text-2xl underline'>Skills</p>
           <Skills clasName="flex" />
         </div>
         
         <br />
 
         {/* flex item bottomrow/rightcol */}
-        <div >
-          <p className='text-center text-2xl'>Certifications</p>
+        <div className="ml-5 mr-13">
+          <p className='text-center text-2xl underline'>Certifications</p>
           <Certs />
         </div>
       </div>

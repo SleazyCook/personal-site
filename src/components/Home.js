@@ -7,14 +7,17 @@ const Home = () => {
     <div>
       <br />
       <div className="text-center text-2xl">
-      There is art and beauty and power 
-      <br />
-      in the primal images of fantasy
-      <br />
-      - Guillermo del Toro
+        There is art and beauty and power 
+        <br />
+        in the primal images of fantasy
+        <br />
+        - Guillermo del Toro
       </div>
-      <Preview />
-      {/* <Preview /> */}
+      
+      <div className="flex flex-row">
+        <Preview />
+      </div>
+      
     </div>
   )
 }
