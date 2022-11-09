@@ -17,6 +17,10 @@ html {
   background-attachment: fixed;
 }
 
+/* html::webkit-scrollbar {
+  display: none;
+} */
+
 #app {
   position: absolute;
   width: 100vw;
