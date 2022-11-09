@@ -25,6 +25,9 @@ const Contact = () => {
       ( freelance link )
       <br />
 
+      <br />
+      <br />
+
     </div>
   )
 }

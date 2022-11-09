@@ -29,6 +29,10 @@ const About = () => {
 
         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec malesuada nibh ut eros elementum mattis semper sit amet purus. Phasellus malesuada ut neque et dapibus. Vivamus sit amet viverra mi, vitae imperdiet metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin porttitor efficitur sagittis. Proin sit amet urna et eros elementum feugiat nec at lacus. Cras lobortis congue lorem ut sagittis. Vivamus neque lorem, dignissim sed ex id, ornare tincidunt nisi. Aliquam pharetra dignissim nibh ut dignissim.
       </p>
+
+      <br />
+      <br />
+      
     </div>
   )
 }
