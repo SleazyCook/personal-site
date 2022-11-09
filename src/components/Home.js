@@ -5,6 +5,8 @@ const Home = () => {
   return (
     <div id="home-container" className="bg-black">
       <br />
+      <br />
+      <br />
       {/* <div className="text-center text-2xl ">
         There is art and beauty and power 
         <br />
@@ -15,11 +17,13 @@ const Home = () => {
       <img className="mx-auto" alt="del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
       
       {/* <br /> */}
+      <br />
 
       <div className="flex justify-center">
         <Preview/>
       </div>
 
+      <br />
       <br />
       
     </div>
