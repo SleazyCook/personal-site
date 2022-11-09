@@ -10,11 +10,13 @@ body {
 
 html {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#title {
+/* #title {
   position: absolute;
   top: 50%;
   left: 0;
@@ -33,7 +35,7 @@ html {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 #stars {
   width: 1px;
