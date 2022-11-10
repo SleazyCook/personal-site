@@ -20,9 +20,16 @@ const App = () => {
       <br /> */}
       <Outlet context />
 
+      <section id="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div> 
+      </section>
+
       {/* <br />
       <br /> */}
-      <div id="footer-stuff" className="bg-black pb-[500px]">
+      {/* className="bg-black" */}
+      <div id="footer-stuff" >
 
         <br />
 

@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hamburger Menu Animation */
+
+/* .menu-btn.open .menu-btn_burger */

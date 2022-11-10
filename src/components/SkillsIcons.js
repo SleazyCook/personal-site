@@ -13,8 +13,8 @@ const SkillsIcons = () => {
   return (
     <div>
       {/* <div className={ isClicked ? hoverSkillsContainer : normalSkillsContainer} onClick={handleClick}> */}
-      <div className="flex flex-wrap max-h-[600px] justify-center md:flex-col md:align-center md:mr-[120px]">
-        <div className="flex flex-col md:self-center">
+      <div className="flex flex-wrap max-h-[600px] justify-center md:flex-col mx-25">
+        <div className="flex flex-col self-center">
           <p className="self-center">
             HTML
           </p>

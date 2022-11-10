@@ -8,14 +8,14 @@ const Skills = () => {
 
       <br />
       <br />
-      <div id="flex-container" className="flex flex-col md:flex-row md:justify-center">
+      <div id="flex-container" className="flex flex-col md:flex-row md:justify-around lg:mx-[30%]">
         {/* flex item toprow/leftcol */}
-        <div>
-          <p className='text-center text-2xl underline'>Skills</p>
-          <SkillsIcons clasName="flex" />
+        <div className="flex flex-col min-w-[200px]">
+          <p className='text-2xl underline mx-auto'>Skills</p>
+          <SkillsIcons />
         </div>
         
-        <br />
+
 
         {/* flex item bottomrow/rightcol */}
         <div className="ml-5 mr-13">

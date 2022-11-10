@@ -13,12 +13,18 @@ const Contact = () => {
       <br />
       (956) 278-0093
       <br />
-      <a className="underline" href="https://www.linkedin.com/in/developedbydrewford/">
+      <a className="underline" target="_blank" href="https://www.linkedin.com/in/developedbydrewford/">
         LinkedIn
       </a>
-      
+
       <br />
-      <a className="underline" href="https://www.codewars.com/users/sleazycook">
+      
+      <a className="underline" target="_blank" href="https://github.com/SleazyCook">
+        GitHub
+      </a>
+
+      <br />
+      <a className="underline" target="_blank" href="https://www.codewars.com/users/sleazycook">
         Code Wars
       </a>
       

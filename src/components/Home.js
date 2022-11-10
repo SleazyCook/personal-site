@@ -3,7 +3,7 @@ import Preview from './Preview'
 
 const Home = () => {
   return (
-    <div id="home-container" className="bg-black">
+    <div id="home-container" className="bg-black max-w-[800px] mx-auto rounded-md">
       <br />
       <br />
       <br />
@@ -23,6 +23,10 @@ const Home = () => {
         <Preview/>
       </div>
 
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       
