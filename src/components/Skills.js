@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillsIcons from './SkillsIcons';
 import Certs from './Certs';
+import Footer from './Footer';
 
 const Skills = () => {
   return (
@@ -24,6 +25,7 @@ const Skills = () => {
         </div>
       </div>
 
+      <Footer />
 
     </div>
   )

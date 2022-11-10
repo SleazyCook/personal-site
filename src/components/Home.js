@@ -1,9 +1,10 @@
 import React from 'react';
-import Preview from './Preview'
+import Preview from './Preview';
+import Footer from './Footer';
 
 const Home = () => {
   return (
-    <div id="home-container" className="bg-black max-w-[800px] mx-auto rounded-md">
+    <div id="home-container" className="bg-black ">
       <br />
       <br />
       <br />
@@ -30,6 +31,8 @@ const Home = () => {
       <br />
       <br />
       
+      <Footer />
+
     </div>
   )
 }

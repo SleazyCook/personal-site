@@ -8,12 +8,18 @@ const Navbar = () => {
     setIsMenuClicked(!isMenuClicked)
   }
 
+  // function Menu(e){
+  //   let list = document.getElementById('nav-list');
+  //   e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+  // }
+
   return (
     <nav className="text-center space-x-4">
 
-      <nav class="p-5 bg-black shadow lg:flex lg:items-center lg:justify-between">
-        <div class="flex justify-between items-center ">
+      <nav className="p-5 bg-black shadow lg:flex lg:items-center lg:justify-between">
+        <div className="flex justify-between items-center ">
 
+          {/* header on left side of nav */}
           <h1 className='text-3xl font-serif'><a href="https://developedbydrewford.netlify.app">
             <span>Developed by </span>
             <span className='font-swash'>Drewford</span>
@@ -21,17 +27,21 @@ const Navbar = () => {
             <span className='text-lg overline'>Andrew Cook - Web Developer</span>
           </a></h1>
 
-          {/* hamburger menu button*/}
-          <div onClick={handleOpenMenu} className="flex flex-col justify-between max-h-[40px] min-h-[20px] mr-[25px] hover:cursor-pointer" >
-            <div className='bg-white h-[3px] w-[25px] transition transform active:rotate-90' ></div>
-            <div className='bg-white h-[3px] w-[25px]' ></div>
-            <div className='bg-white h-[3px] w-[25px]' ></div>
-          </div>
+          {/* hamburger menu button from Tailwind CSS
+          <div onClick={handleOpenMenu} className="lg:hidden flex flex-col justify-between max-h-[40px] min-h-[20px] mr-[25px] hover:cursor-pointer" >
+            <div className='bg-white h-[3px] w-[40px] transition transform active:rotate-90' ></div>
+            <div className='bg-white h-[3px] w-[40px]' ></div>
+            <div className='bg-white h-[3px] w-[40px]' ></div>
+          </div> */}
+
+          {/* <span className="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick={Menu(this)}></ion-icon>
+          </span> */}
 
         </div>
 
         {/* Pages on Horizontal Nav */}
-        <ul class="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-black w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <ul id="nav-list" class="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-black w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
 
           <li class="mx-4 my-6 lg:my-0">
             <Link to="/" href="#" class="text-xl hover:text-gray-500 duration-500">Home</Link>
