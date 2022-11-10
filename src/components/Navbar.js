@@ -44,22 +44,33 @@ const Navbar = () => {
         <ul id="nav-list" class="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-black w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
 
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="/" href="#" class="text-xl hover:text-gray-500 duration-500">Home</Link>
+            <Link to="/" class="text-xl hover:text-gray-500 duration-500">
+              Home</Link>
           </li>
+
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="websites" href="#" class="text-xl hover:text-gray-500 duration-500">Websites</Link>
+            <Link to="websites" class="text-xl hover:text-gray-500 duration-500"
+            >Websites</Link>
           </li>
+
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="games" class="text-xl hover:text-gray-500 duration-500">Games</Link>
+            <Link to="games" class="text-xl hover:text-gray-500 duration-500">
+              Games</Link>
           </li>
+
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="skills" href="#" class="text-xl hover:text-gray-500 duration-500">Skills</Link>
+            <Link to="skills" class="text-xl hover:text-gray-500 duration-500">
+              Skills</Link>
           </li>
+
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="about" class="text-xl hover:text-gray-500 duration-500">About</Link>
+            <Link to="about" class="text-xl hover:text-gray-500 duration-500">
+              About</Link>
           </li>
+
           <li class="mx-4 my-6 lg:my-0">
-            <Link to="contact" href="#" class="text-xl hover:text-gray-500 duration-500">Contact</Link>
+            <Link to="contact" class="text-xl hover:text-gray-500 duration-500">
+              Contact</Link>
           </li>
 
         </ul>
