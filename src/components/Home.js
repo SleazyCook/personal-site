@@ -33,6 +33,10 @@ const Home = () => {
       
       <Footer />
 
+      <br />
+      <br />
+
+
     </div>
   )
 }
