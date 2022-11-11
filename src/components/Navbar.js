@@ -53,22 +53,22 @@ const Navbar = () => {
 
             <div className={menu_class}>
               <br />
-              <Link to="/" className="text-xl hover:text-gray-500 duration-500">Home</Link>
+              <Link to="/" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Home</Link>
               <br />
               <br />
-              <Link to="websites" className="text-xl hover:text-gray-500 duration-500">Websites</Link>
+              <Link to="websites" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Websites</Link>
               <br />
               <br />
-              <Link to="games" className="text-xl hover:text-gray-500 duration-500">Games</Link>
+              <Link to="games" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Games</Link>
               <br />
               <br />
-              <Link to="skills" className="text-xl hover:text-gray-500 duration-500">Skills</Link>
+              <Link to="skills" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Skills</Link>
               <br />
               <br />
-              <Link to="About" className="text-xl hover:text-gray-500 duration-500">About</Link>
+              <Link to="About" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">About</Link>
               <br />
               <br />
-              <Link to="Contact" className="text-xl hover:text-gray-500 duration-500">Contact</Link>
+              <Link to="Contact" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Contact</Link>
             </div>
         </div>
 
