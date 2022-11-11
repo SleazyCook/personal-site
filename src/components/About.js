@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 const About = () => {
   return (
-    <div>
+    <div className="mx-10">
       <br />
       <br />
       <p className='text-center text-2xl underline'>My Story</p>

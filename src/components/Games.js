@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 const Games = () => {
   return (
-    <div>
+    <div className="mx-10">
       <br />
       <br />
       {/* Project Section */}

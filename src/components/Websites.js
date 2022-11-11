@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 const Websites = () => {
   return (
-    <div>
+    <div className="mx-10">
       <br />
       <br />
       <div className="max-w-[600px] mx-auto text-center">

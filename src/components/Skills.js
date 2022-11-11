@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 const Skills = () => {
   return (
-    <div>
+    <div className="mx-10">
 
       <br />
       <br />
