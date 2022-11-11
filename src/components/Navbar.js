@@ -18,7 +18,7 @@ const Navbar = () => {
           setBurgerClass("burger-bar unclicked")
           setMenuClass("menu hidden")
       }
-      setIsMenuClicked(!isMenuClicked)
+      setIsMenuClcked(!isMenuClicked)
   }
 
   // function Menu(e){
@@ -40,6 +40,7 @@ const Navbar = () => {
             <span className='text-lg overline'>Andrew Cook - Web Developer</span>
           </a></h1>
 
+
           {/* style={{width: '100%', height: '100vh'}} */}
           <div id="box" className="lg:opacity-0 opacity-100">
             <div id="burger-house">
@@ -51,10 +52,23 @@ const Navbar = () => {
             </div>
 
             <div className={menu_class}>
-              <p>Hello</p>
-              <p>Hello</p>
-              <p>Hello</p>
-              <p>Hello</p>
+              <br />
+              <Link to="/" className="text-xl hover:text-gray-500 duration-500">Home</Link>
+              <br />
+              <br />
+              <Link to="websites" className="text-xl hover:text-gray-500 duration-500">Websites</Link>
+              <br />
+              <br />
+              <Link to="games" className="text-xl hover:text-gray-500 duration-500">Games</Link>
+              <br />
+              <br />
+              <Link to="skills" className="text-xl hover:text-gray-500 duration-500">Skills</Link>
+              <br />
+              <br />
+              <Link to="About" className="text-xl hover:text-gray-500 duration-500">About</Link>
+              <br />
+              <br />
+              <Link to="Contact" className="text-xl hover:text-gray-500 duration-500">Contact</Link>
             </div>
         </div>
 

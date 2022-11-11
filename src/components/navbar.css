@@ -30,16 +30,24 @@
   height: 0.4em;
   background-color: rgb(255 255 255);
   border-radius: 0.5em;
+  z-index: 2;
 }
 
 .menu {
-  width: 50%;
-  height: 100vh;
-  background-color: rgb(154, 181,240);
+  /* width: 50%; */
+  border: 5px solid white;
+  border-radius: 30px;
+  width: 400px;
+  /* height: 100vh; */
+  height: 400px;
+  /* background-color: rgb(154, 181,240); */
+  background-color: black;
   color: white;
   position: absolute;
-  top: 0;
-  z-index: -1;
+  /* position: fixed; */
+  /* top: 0; */
+  margin-left: -325px;;
+  z-index: 0;
 }
 
 /* ------------- sliding menu ------------------ */
