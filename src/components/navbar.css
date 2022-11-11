@@ -37,9 +37,9 @@
   /* width: 50%; */
   border: 5px solid white;
   border-radius: 30px;
-  width: 400px;
+  width: 200px;
   /* height: 100vh; */
-  height: 400px;
+  height: 350px;
   /* background-color: rgb(154, 181,240); */
   background-color: black;
   color: white;
@@ -47,7 +47,7 @@
   /* position: fixed; */
   /* top: 0; */
   margin-top: 10px;
-  margin-left: -325px;;
+  margin-left: -125px;;
   z-index: 0;
 }
 
