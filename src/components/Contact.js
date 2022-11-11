@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div className="text-center text-xl">
+    <div className="text-center text-xl mx-10">
       <br />
       <br />
       Andrew Cook
