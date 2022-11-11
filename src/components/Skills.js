@@ -11,7 +11,7 @@ const Skills = () => {
       <br />
       <div id="flex-container" className="flex flex-col md:flex-row md:justify-around lg:mx-[30%]">
         {/* flex item toprow/leftcol */}
-        <div className="flex flex-col min-w-[200px]">
+        <div className="flex flex-col min-w-[200px] my-5">
           <p className='text-2xl underline mx-auto'>Skills</p>
           <SkillsIcons />
         </div>
@@ -19,7 +19,7 @@ const Skills = () => {
 
 
         {/* flex item bottomrow/rightcol */}
-        <div className="ml-5 mr-13">
+        <div className="ml-5 mr-13 my-5">
           <p className='text-center text-2xl underline'>Certifications</p>
           <Certs />
         </div>
