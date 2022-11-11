@@ -49,6 +49,7 @@
   margin-top: 20px;
   margin-left: -125px;;
   z-index: 0;
+  transition: ease-in-out;
 }
 
 /* ------------- sliding menu ------------------ */

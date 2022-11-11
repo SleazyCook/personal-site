@@ -50,7 +50,8 @@ const Navbar = () => {
                     <div className={burger_class} ></div>
                 </div>
             </div>
-
+            {/* Drop down menu */}
+            {/* className="transition-all ease-in duration-500" */}
             <div className={menu_class}>
               <br />
               <Link to="/" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Home</Link>
@@ -71,20 +72,6 @@ const Navbar = () => {
               <Link to="Contact" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Contact</Link>
             </div>
         </div>
-
-
-          {/* react-burger-menu by npm install */} 
-
-          {/* hamburger menu button from Tailwind CSS */}
-          {/* <div onClick={handleOpenMenu} className="lg:hidden flex flex-col justify-between max-h-[40px] min-h-[20px] mr-[25px] hover:cursor-pointer" >
-            <div className='bg-white h-[3px] w-[40px] transition transform active:rotate-90' ></div>
-            <div className='bg-white h-[3px] w-[40px]' ></div>
-            <div className='bg-white h-[3px] w-[40px]' ></div>
-          </div> */}
-
-          {/* <span className="text-3xl cursor-pointer mx-2 md:hidden block">
-            <ion-icon name="menu" onclick={Menu(this)}></ion-icon>
-          </span> */}
 
         </div>
 
