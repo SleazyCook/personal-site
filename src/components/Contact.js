@@ -19,6 +19,8 @@ const Contact = () => {
         Discord
       </a>
 
+      <br />
+
       <a className="underline" target="_blank" href="https://www.linkedin.com/in/developedbydrewford/">
         LinkedIn
       </a>
