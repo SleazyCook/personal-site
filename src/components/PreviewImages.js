@@ -2,6 +2,13 @@ import { useLinkClickHandler } from "react-router-dom";
 
 export const previewData = [
   {
+    id: 15,
+    name: "Delavega Autoplex",
+    img: "https://i.imgur.com/WWvB4QC.png",
+    link: "https://delavegaautoplex.netlify.app"
+  },
+  
+  {
     id: 1,
     name: "Puppy Clicker",
     img: "https://i.imgur.com/L8uk5oR.png?1",
