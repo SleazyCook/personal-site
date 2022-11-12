@@ -14,6 +14,11 @@ const Contact = () => {
       <br />
       (956) 278-0093
       <br />
+
+      <a className="underline" target="_blank" href="https://discord.gg/SAgrmBXjeV">
+        Discord
+      </a>
+
       <a className="underline" target="_blank" href="https://www.linkedin.com/in/developedbydrewford/">
         LinkedIn
       </a>
