@@ -23,6 +23,13 @@ export const previewData = [
   },
 
   {
+    id: 20,
+    name: "Victor Alberto Photography",
+    img: "https://i.imgur.com/AbNB2uF.png",
+    link: "https://victoralbertophotography.netlify.app/"
+  },
+
+  {
     id: 4,
     name: "Drewford's List",    
     img: "https://i.imgur.com/mt4Idyv.png",

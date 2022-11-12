@@ -21,6 +21,19 @@ const Websites = () => {
           </p>
         </div>
 
+        {/* Victor Alberto Photography */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://victoralbertophotography.netlify.app/" target="_blank">
+            Victor Alberto Photography</a></p>
+          <p>
+            Photoraphy and Videography services by Victor Alberto Torres. Check out a gallery of previous works on weddings, engagements, graduation, landscapes, real estate, creative, wildlife, and nature. Book a session today or just order some digital or physical prints. 
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js v6 | CSS </p>
+            <br />
+          </p>
+        </div>
+
         {/* Movie Mayhem */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://moviemayhem.netlify.app" target="_blank">
