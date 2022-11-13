@@ -29,7 +29,7 @@ const Websites = () => {
             Photoraphy and Videography services by Victor Alberto Torres. Check out a gallery of previous works on weddings, engagements, graduation, landscapes, real estate, creative, wildlife, and nature. Book a session today or just order some digital or physical prints. 
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS </p>
+              React.js v6 | CSS | Material-UI</p>
             <br />
           </p>
         </div>
