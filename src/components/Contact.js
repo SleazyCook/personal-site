@@ -37,9 +37,11 @@ const Contact = () => {
       </a>
       
       <br />
-      ( freelance link )
+      <a className="underline" target="_blank" href="https://www.upwork.com/freelancers/~018529cc25c83cc183">
+        Upwork
+      </a>
       <br />
-
+      
       <br />
       <br />
 
