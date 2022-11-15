@@ -5,10 +5,10 @@ const Certs = () => {
     <div >
       <ul className="text-center">
         <li>
-          <p><b>Computer Science Career Path</b></p>
+          <p><b>Full-Stack Software Engineer Career Path</b></p>
           <p>Certificate of Completion</p>
-          <p>Issued: December 6th, 2022</p>
-          <p>codecademy</p>
+          <p>Issued: November 15th, 2022</p>
+          <p>Codecademy</p>
         </li>
 
         <br />
