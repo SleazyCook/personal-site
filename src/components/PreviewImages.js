@@ -48,6 +48,12 @@ export const previewData = [
     link: "https://pixel8game.netlify.app"
   },
   {
+    id: 100,
+    name: "FitnessTracker",
+    img: "https://i.imgur.com/uyIskKs.png",
+    link: "https://fitness-by-prestige-worldwide.netlify.app"
+  },
+  {
     id: 7,
     name: "Wizard News",
     img: "https://i.imgur.com/kXTLBtf.png",
