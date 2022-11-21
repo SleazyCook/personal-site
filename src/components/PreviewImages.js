@@ -50,7 +50,7 @@ export const previewData = [
   {
     id: 100,
     name: "FitnessTracker",
-    img: "https://i.imgur.com/uyIskKs.png",
+    img: "https://i.imgur.com/x2VCp0B.png",
     link: "https://fitness-by-prestige-worldwide.netlify.app"
   },
   {
