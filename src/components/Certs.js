@@ -14,10 +14,10 @@ const Certs = () => {
         <br />
 
         <li>
-          <p><b>Computer Science Career Path</b></p>
+          <p><b>Responsive Web Design</b></p>
           <p>Certificate of Completion</p>
-          <p>Issued: December 6th, 2022</p>
-          <p>codecademy</p>
+          <p>Issued: November, 22, 2022</p>
+          <p>freeCodeCamp</p>
         </li>
 
         <br />
