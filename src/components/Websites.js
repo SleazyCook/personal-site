@@ -16,7 +16,7 @@ const Websites = () => {
             Business site for car dealership in McAllen, TX. Learn about Delavega Autoplex's local history and inventory of cars, SUVs, and trucks. Read testimonials from verified purchasers, reach out directly to the owners, and manage your payments and payment history.
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS </p>
+              React.js v6 | CSS | Express.js | PostgreSQL</p>
             <br />
           </p>
         </div>
