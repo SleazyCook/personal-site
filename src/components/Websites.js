@@ -8,6 +8,19 @@ const Websites = () => {
       <br />
       <div className="max-w-[600px] mx-auto text-center">
 
+        {/* Poster Children */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://wonderful-praline-cde380.netlify.app" target="_blank">
+            Delavega Autoplex</a></p>
+          <p>
+            Capstone Project from Fullstack Academy Bootcamp. Fake E-Commerce website for buying posters from movies, musical artists, and videogames.
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js | CSS | Express.js | PostgreSQL</p>
+            <br />
+          </p>
+        </div>
+
         {/* Delavega Autoplex */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://delavegaautoplex.netlify.app" target="_blank">
@@ -16,7 +29,7 @@ const Websites = () => {
             Business site for car dealership in McAllen, TX. Learn about Delavega Autoplex's local history and inventory of cars, SUVs, and trucks. Read testimonials from verified purchasers, reach out directly to the owners, and manage your payments and payment history.
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS | Express.js | PostgreSQL</p>
+              React.js | CSS | Express.js | PostgreSQL</p>
             <br />
           </p>
         </div>
@@ -29,7 +42,7 @@ const Websites = () => {
             Photoraphy and Videography services by Victor Alberto Torres. Check out a gallery of previous works on weddings, engagements, graduation, landscapes, real estate, creative, wildlife, and nature. Book a session today or just order some digital or physical prints. 
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS | Material-UI</p>
+              React.js | CSS | Material-UI</p>
             <br />
           </p>
         </div>
@@ -42,7 +55,7 @@ const Websites = () => {
             Join a community of movie and television lovers at Movie Mayhem. Similar to the social film discovery website Letterboxd, discover and track your watchlist and participate in watchparties and discussions posted throughout the year. 
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS | Express.js | PostgreSQL</p>
+              React.js | CSS | Express.js | PostgreSQL</p>
             <br />
           </p>
         </div>
@@ -55,7 +68,7 @@ const Websites = () => {
             Join a community of book lovers at Beyond the Book. Similar to the social reading discovery website Goodreads, discover and track your reading list and participate in bookclubs and discussions posted throughout the year.
             <br />
             <p className="text-center text-sm transition-all ease-in text-gray-500 overline">
-              React.js v6 | CSS | Express.js | PostgreSQL</p>
+              React.js | CSS | Express.js | PostgreSQL</p>
             <br />
           </p>
         </div>
@@ -68,7 +81,7 @@ const Websites = () => {
             A school project experimenting with Front End fetch requests to create, read, update, and destroy data from a premade database. This website was eventually led to the Homestead List, seen above, which is used by a community in Houston, TX.
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS</p>
+              React.js | CSS</p>
             <br />
           </p>
         </div>
@@ -81,7 +94,7 @@ const Websites = () => {
             Buy, Sell, or Trade with neighbors you already know in the Houston Gardens area. A Craigslist-clone specifically for a neighborhood in Houston, Texas.
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js v6 | CSS</p>
+              React.js | CSS</p>
             <br />
             
           </p>
