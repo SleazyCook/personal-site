@@ -6,7 +6,7 @@ const Footer = () => {
       <br />
 
       <footer className="text-center text-sm ">
-        Built using React.js v6 and Tailwind CSS and hosted on Netlify.
+        Built using React.js and Tailwind CSS and hosted on Netlify.
         <br />
         <span className='font-serif'> Developed by</span>
         <span className='font-swash'> Drewford</span>
