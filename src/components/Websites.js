@@ -13,7 +13,7 @@ const Websites = () => {
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
             Poster Children</a></p>
           <p>
-            Capstone Project from Fullstack Academy Bootcamp. Collaboration with a small group of cohorts to create a fake, but functional E-Commerce website for buying posters from movies, musical artists, and videogames.
+            Capstone Project from Fullstack Academy Bootcamp. Collaboration with a small group of cohorts to create a fake, but functional E-Commerce website for buying posters from movies, musical artists, and videogames. Register and create an account. Add items to your cart and store addresses and credit card information for checkout. Leave reviews on shop items. 
             <br />
             <p className="text-center text-sm text-gray-500 overline">
               React.js | CSS | Express.js | PostgreSQL</p>
