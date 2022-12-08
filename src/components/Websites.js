@@ -10,7 +10,7 @@ const Websites = () => {
 
         {/* Poster Children */}
         <div>
-          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://wonderful-praline-cde380.netlify.app" target="_blank">
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
             Poster Children</a></p>
           <p>
             Capstone Project from Fullstack Academy Bootcamp. Collaboration with a small group of cohorts to create a fake, but functional E-Commerce website for buying posters from movies, musical artists, and videogames.
