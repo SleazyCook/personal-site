@@ -3,10 +3,11 @@ import { useLinkClickHandler } from "react-router-dom";
 export const previewData = [
   {
     id: 1,
-    name: "Puppy Clicker",
-    img: "https://i.imgur.com/L8uk5oR.png?1",
-    link: "https://puppy-clicker.netlify.app"
+    name: "Poster Children",
+    img: "https://i.imgur.com/OkMa0xM.png",
+    link: "https://poster-children.netlify.app/"
   },
+
 
   {
     id: 2,
@@ -40,6 +41,12 @@ export const previewData = [
     name: "Connect 4",
     img: "https://i.imgur.com/X1ltYe2.png",
     link: "https://connect4bydrewford.netlify.app"
+  },
+  {
+    id: 1,
+    name: "Puppy Clicker",
+    img: "https://i.imgur.com/L8uk5oR.png?1",
+    link: "https://puppy-clicker.netlify.app"
   },
   {
     id: 6,
