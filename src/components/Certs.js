@@ -5,6 +5,16 @@ const Certs = () => {
     <div >
       <ul className="text-center">
         <li>
+          <p><b>Full-Stack Web Development Bootcamp</b></p>
+          <p>Certificate of Completion</p>
+          <p>Issued: December 9th, 2022</p>
+          <p>University of Texas at Dallas</p>
+          <p>Powered by Fullstack Academy</p>
+        </li>
+
+        <br />
+
+        <li>
           <p><b>Full-Stack Software Engineer Career Path</b></p>
           <p>Certificate of Completion</p>
           <p>Issued: November 15th, 2022</p>
@@ -23,16 +33,7 @@ const Certs = () => {
         <br />
 
         <li>
-          <p><b>Computer Science Career Path</b></p>
-          <p>Certificate of Completion</p>
-          <p>Issued: December 6th, 2022</p>
-          <p>codecademy</p>
-        </li>
-
-        <br />
-
-        <li>
-          <p><b>Computer Science Career Path</b></p>
+          <p><b>*Placeholder* Certification</b></p>
           <p>Certificate of Completion</p>
           <p>Issued: December 6th, 2022</p>
           <p>codecademy</p>
