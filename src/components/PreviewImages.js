@@ -24,6 +24,12 @@ export const previewData = [
   },
 
   {
+    name: "Cook Family Crossword",
+    img: "https://i.imgur.com/uR5LHeW.png",
+    link: "https://cook-crossword.netlify.app"
+  },
+
+  {
     id: 20,
     name: "Victor Alberto Photography",
     img: "https://i.imgur.com/AbNB2uF.png",
