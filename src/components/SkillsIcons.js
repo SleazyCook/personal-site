@@ -37,6 +37,13 @@ const SkillsIcons = () => {
 
         <div className="flex flex-col md:self-center">
           <p className="self-center">
+            Python
+          </p>
+          <img className="self-center h-[80px] w-[80px]" alt="python icon" src="https://i.imgur.com/94CxOHI.png"></img>
+        </div>
+
+        <div className="flex flex-col md:self-center">
+          <p className="self-center">
             Git
           </p>
           <img className="self-center h-[80px] w-[80px]" alt="git icon" src="https://img.icons8.com/color/344/git.png"></img>
@@ -47,6 +54,13 @@ const SkillsIcons = () => {
             Tailwind
           </p>
           <img className="self-center h-[80px] w-[80px]" alt="tailwind css icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"></img>
+        </div>
+
+        <div className="flex flex-col md:self-center">
+          <p className="self-center">
+            SASS
+          </p>
+          <img className="self-center h-[80px] w-[80px]" alt="sass css icon" src="https://i.imgur.com/NyWA8d2.png"></img>
         </div>
 
         <div className="flex flex-col md:self-center">

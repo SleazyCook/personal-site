@@ -15,6 +15,12 @@ const Contact = () => {
       (956) 278-0093
       <br />
 
+      <a className="underline" target="_blank" href="https://andrew-cook.netlify.app">
+        Resume
+      </a>
+
+      <br />
+
       <a className="underline" target="_blank" href="https://discord.gg/SAgrmBXjeV">
         Discord
       </a>

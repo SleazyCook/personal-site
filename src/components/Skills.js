@@ -19,7 +19,7 @@ const Skills = () => {
 
 
         {/* flex item bottomrow/rightcol */}
-        <div className="ml-5 mr-13 my-5">
+        <div className="ml-10 mr-13 my-5">
           <p className='text-center text-2xl underline'>Certifications</p>
           <Certs />
         </div>
