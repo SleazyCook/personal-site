@@ -22,6 +22,20 @@ const Games = () => {
         </div>
 
         <br />
+
+        {/* POKEMON PICKER */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://gotta-pick-em-all.netlify.app" target="_blank">
+            Pokemon Picker</a></p>
+          <p>
+            Team project inspired by either.io, Pokemon Picker offers you the chance to rank your favorite pokemon by choosing between two randomly selected pokemon at a time.  Choose which generation you are interested in ranking and view your statistics based on wins, type, and generation. 
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">React.js | CSS </p>
+            <br />
+          </p>
+        </div>
+
+        <br />
         {/* CONNECT FOUR */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://connect4bydrewford.netlify.app" target="_blank">

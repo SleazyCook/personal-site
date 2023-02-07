@@ -22,6 +22,12 @@ export const previewData = [
     img: "https://i.imgur.com/q1UVNrk.png",
     link: "https://death-house.netlify.app"
   },
+  
+  {
+    name: "Pokemon Picker",
+    img: "https://i.imgur.com/eDmMzYA.png",
+    link: "https://gotta-pick-em-all.netlify.app"
+  },
 
   {
     name: "Cook Family Crossword",
