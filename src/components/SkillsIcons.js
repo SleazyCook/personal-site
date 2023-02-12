@@ -88,7 +88,7 @@ const SkillsIcons = () => {
           <p className="self-center">
             SQL
           </p>
-          <img className="self-center h-[80px] w-[80px]" alt="SQL icon" src="https://cdn-icons-png.flaticon.com/512/2772/2772165.png"></img>
+          <img className="self-center h-[80px] w-[80px]" alt="SQL icon" src="https://i.imgur.com/5U8tqnc.png"></img>
         </div>
 
         <div className="flex flex-col md:self-center">
