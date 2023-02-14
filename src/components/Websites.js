@@ -8,6 +8,19 @@ const Websites = () => {
       <br />
       <div className="max-w-[600px] mx-auto text-center">
 
+        {/* Client Templates */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://tired-template.netlify.app" target="_blank">
+            Zach & Drew Make Websites </a></p>
+          <p>
+            Pair Programming project with developer Zach Power to create a variety of front end project templates including portfolios, product landing pages, and more.  This site serves as an outreach to potential freelance clients for a their unique and specific needs by showcasing a wide range of possibile webpages.
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js | CSS</p>
+            <br />
+          </p>
+        </div>
+
         {/* Poster Children */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
