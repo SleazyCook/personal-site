@@ -39,15 +39,7 @@ const Certs = () => {
           <p>freeCodeCamp</p>
         </li>
 
-        <br />
-
-        <li>
-          <p><b>*Placeholder* Certification</b></p>
-          <p>Certificate of Completion</p>
-          <p>Issued: December 6th, 2022</p>
-          <p>codecademy</p>
-        </li>
-
+        
         <br />
 
 
