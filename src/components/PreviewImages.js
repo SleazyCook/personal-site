@@ -7,6 +7,11 @@ export const previewData = [
     img: "https://i.imgur.com/OkMa0xM.png",
     link: "https://poster-children.netlify.app/"
   },
+  {
+    name: "Natours",
+    img: "https://i.imgur.com/Ho4JL3Z.png",
+    link: "https://natours-by-drewford.netlify.app"
+  },
 
 
   {

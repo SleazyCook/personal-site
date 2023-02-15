@@ -21,6 +21,19 @@ const Websites = () => {
           </p>
         </div>
 
+        {/* Natours */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://natours-by-drewford.netlify.app" target="_blank">
+            Nature Tours </a></p>
+          <p>
+            Static site using only HTML and SASS originally created by Jonas Schedtmann for his Advanced CSS and SASS course for Udemy. Natours is a landing page for a fictional company that offers a variety of natours tours.  Follow through a page a of various animations to see features, reviews, and book your first tour. 
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              HTML | SASS</p>
+            <br />
+          </p>
+        </div>
+
         {/* Poster Children */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
