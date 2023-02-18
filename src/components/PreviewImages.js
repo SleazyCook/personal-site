@@ -24,7 +24,7 @@ export const previewData = [
   {
     name: "Curse of Strahd: Plight of the Sunseekers",
     img: "https://i.imgur.com/fx9tAT8.png",
-    link: "https://sunseekers.netlify.app/sunseekers"
+    link: "https://sunseekers.netlify.app/"
   },
 
   {
