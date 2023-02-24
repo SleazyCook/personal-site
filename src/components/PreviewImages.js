@@ -1,12 +1,25 @@
 import { useLinkClickHandler } from "react-router-dom";
 
 export const previewData = [
+
   {
-    id: 1,
+    name: "Sudoku",
+    img: "https://i.imgur.com/t9UQlme.png",
+    link: "https://sudoku-slam.netlify.app"
+  },
+
+  {
     name: "Poster Children",
     img: "https://i.imgur.com/OkMa0xM.png",
     link: "https://poster-children.netlify.app/"
   },
+
+  {
+    name: "Curse of Strahd: Plight of the Sunseekers",
+    img: "https://i.imgur.com/fx9tAT8.png",
+    link: "https://sunseekers.netlify.app/"
+  },
+
   {
     name: "Natours",
     img: "https://i.imgur.com/Ho4JL3Z.png",
@@ -15,17 +28,12 @@ export const previewData = [
 
 
   {
-    id: 2,
     name: "Delavega Autoplex",
     img: "https://i.imgur.com/WWvB4QC.png",
     link: "https://delavegaautoplex.netlify.app"
   },
 
-  {
-    name: "Curse of Strahd: Plight of the Sunseekers",
-    img: "https://i.imgur.com/fx9tAT8.png",
-    link: "https://sunseekers.netlify.app/"
-  },
+
 
   {
     id: 3,

@@ -29,7 +29,7 @@ const Websites = () => {
             Curse of Strahd is a popular campaign within the tabletop game Dungeons & Dragons.  Plight of the Sunseekers is my take on Curse of Strahd with my friends that play across the country on the virtual game board offered by Roll20.  This site contains my public notes for the game so far. 
             <br />
             <p className="text-center text-sm text-gray-500 overline">
-              React.js | SASS SCSS</p>
+              React.js | SCSS</p>
             <br />
           </p>
         </div>

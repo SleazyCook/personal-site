@@ -10,6 +10,18 @@ const Games = () => {
       <div className="max-w-[600px] mx-auto text-center">
 
         {/* DEATH HOUSE */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://sudoku-slam.netlify.app" target="_blank">
+            Sudoku</a></p>
+          <p>
+            A tranquil sudoku webpage. Sudoku is a logic-based, combinatorial number placement puzzle. In classic Sudoku, the objective is to fill a 9 x 9 grid with digits so that each column, row, and each of the nine 3 x 3 subgrids contain digits 1 to 9.
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">React.js | SCSS </p>
+            <br />
+          </p>
+        </div>
+
+        {/* DEATH HOUSE */}
           <div>
             <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://death-house.netlify.app" target="_blank">
               Curse of Strahd: Durst Manor</a></p>
