@@ -49,7 +49,7 @@ const Websites = () => {
 
         {/* Trillo */}
         <div>
-          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://natours-by-drewford.netlify.app" target="_blank">
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://trillo-by-drewford.netlify.app" target="_blank">
             trillo | Hotel Booking </a></p>
           <p>
             Static site using only HTML and SASS originally created by Jonas Schedtmann for his Advanced CSS and SASS course for Udemy. trillo is a landing page for a fictional company that offers a variety of travel bookings.  Follow through a page a of various animations to see features, reviews, and book your first trip.
