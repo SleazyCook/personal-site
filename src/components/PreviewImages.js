@@ -27,6 +27,12 @@ export const previewData = [
   },
 
   {
+    name: "trillo",
+    img: "https://i.imgur.com/mRxNPcf.png",
+    link: "https://trillo-by-drewford.netlify.app"
+  },
+
+  {
     name: "Natours",
     img: "https://i.imgur.com/Ho4JL3Z.png",
     link: "https://natours-by-drewford.netlify.app"

@@ -37,9 +37,22 @@ const Websites = () => {
         {/* Natours */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://natours-by-drewford.netlify.app" target="_blank">
-            Nature Tours </a></p>
+            Natours | Nature Tours </a></p>
           <p>
             Static site using only HTML and SASS originally created by Jonas Schedtmann for his Advanced CSS and SASS course for Udemy. Natours is a landing page for a fictional company that offers a variety of natours tours.  Follow through a page a of various animations to see features, reviews, and book your first tour. 
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              HTML | SASS</p>
+            <br />
+          </p>
+        </div>
+
+        {/* Trillo */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://natours-by-drewford.netlify.app" target="_blank">
+            trillo | Hotel Booking </a></p>
+          <p>
+            Static site using only HTML and SASS originally created by Jonas Schedtmann for his Advanced CSS and SASS course for Udemy. trillo is a landing page for a fictional company that offers a variety of travel bookings.  Follow through a page a of various animations to see features, reviews, and book your first trip.
             <br />
             <p className="text-center text-sm text-gray-500 overline">
               HTML | SASS</p>
