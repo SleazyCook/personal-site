@@ -21,6 +21,12 @@ export const previewData = [
   },
 
   {
+    name: "Dwayne the Shell | Companion Guide",
+    img: "https://i.imgur.com/sga8piV.png",
+    link: "https://dwayne-the-shell.netlify.app"
+  },
+
+  {
     name: "Natours",
     img: "https://i.imgur.com/Ho4JL3Z.png",
     link: "https://natours-by-drewford.netlify.app"

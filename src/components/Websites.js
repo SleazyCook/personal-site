@@ -60,6 +60,19 @@ const Websites = () => {
           </p>
         </div>
 
+        {/* Dwayne the Shell's Travel Journal */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
+            Dwayne's Travel Journal</a></p>
+          <p>
+            Player notes for a D&D campaign.  Character is Dwayne the Shell Johnson, a small humanoid turtle merchant who moonlights as a mercenary. This site contains character art, notes from game sessions, and invtenory items. There is also a hidden backstory page.
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js | SCSS </p>
+            <br />
+          </p>
+        </div>
+
         {/* Delavega Autoplex */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://delavegaautoplex.netlify.app" target="_blank">
@@ -136,18 +149,6 @@ const Websites = () => {
               React.js | CSS</p>
             <br />
             
-          </p>
-        </div>
-
-
-        {/* D&D */}
-        <div>
-          <p className="text-center text-xl">
-            Unititled D&D Project: <span className="italic no-underline">Coming Soon!</span></p>
-          <p>
-            A comprehensive wiki of your own personal D&D campaign! Create entries for your locations, characters, maps, and more and invite your players to keep their own detailed notes on all of the goings-on in their adventures. 
-            <br />
-            <p className="text-center text-sm"></p>
           </p>
         </div>
 
