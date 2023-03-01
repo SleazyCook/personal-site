@@ -9,9 +9,9 @@ export const previewData = [
   },
 
   {
-    name: "Poster Children",
-    img: "https://i.imgur.com/OkMa0xM.png",
-    link: "https://poster-children.netlify.app/"
+    name: "Card Games | by Web Slammers",
+    img: "https://i.imgur.com/YlTkEuV.png",
+    link: "https://card-slam.netlify.app"
   },
 
   {
@@ -32,6 +32,11 @@ export const previewData = [
     link: "https://natours-by-drewford.netlify.app"
   },
 
+  {
+    name: "Poster Children",
+    img: "https://i.imgur.com/OkMa0xM.png",
+    link: "https://poster-children.netlify.app/"
+  },
 
   {
     name: "Delavega Autoplex",
