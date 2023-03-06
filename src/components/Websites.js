@@ -88,7 +88,7 @@ const Websites = () => {
 
         {/* Dwayne the Shell's Travel Journal */}
         <div>
-          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://poster-children.netlify.app" target="_blank">
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://dwayne-the-shell.netlify.app" target="_blank">
             Dwayne's Travel Journal</a></p>
           <p>
             Player notes for a D&D campaign.  Character is Dwayne the Shell Johnson, a small humanoid turtle merchant who moonlights as a mercenary. This site contains character art, notes from game sessions, and invtenory items. There is also a hidden backstory page.
