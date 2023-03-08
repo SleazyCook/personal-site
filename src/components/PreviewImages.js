@@ -8,11 +8,7 @@ export const previewData = [
     link: "https://cozy-cuddles.netlify.app"
   },
 
-  {
-    name: "Sudoku",
-    img: "https://i.imgur.com/t9UQlme.png",
-    link: "https://sudoku-slam.netlify.app"
-  },
+
 
   {
     name: "Card Games | by Web Slammers",
@@ -24,6 +20,12 @@ export const previewData = [
     name: "Curse of Strahd: Plight of the Sunseekers",
     img: "https://i.imgur.com/fx9tAT8.png",
     link: "https://sunseekers.netlify.app/"
+  },
+
+  {
+    name: "Sudoku",
+    img: "https://i.imgur.com/t9UQlme.png",
+    link: "https://sudoku-slam.netlify.app"
   },
 
   {
