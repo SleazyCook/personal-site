@@ -21,6 +21,19 @@ const Websites = () => {
           </p>
         </div>
 
+        {/* Cozy Cuddles */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://cozy-cuddles.netlify.app" target="_blank">
+            Cozy Cuddles | Adopt a Pet </a></p>
+          <p>
+            Solo project. Website to adopt pets.
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js | SCSS</p>
+            <br />
+          </p>
+        </div>
+
         {/* Sunseekers */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://sunseekers.netlify.app/sunseekers" target="_blank">
