@@ -8,6 +8,19 @@ const Websites = () => {
       <br />
       <div className="max-w-[600px] mx-auto text-center">
 
+        {/* Marathon */}
+        <div>
+          <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://watch-marathon.netlify.app" target="_blank">
+            Marathon | Streaming Service </a></p>
+          <p>
+            Browse through today's most popular movies and television shows.  Choose from any genre, or just browse by a certain vibe. Marathon is a streaming service primarily cloned from Netflix.com.  For legal reasons, we will only have trailers available for viewing. This project was pair programmed by myself and fellow Fullstack Academy alum <a href="https://madiwebb.netlify.app" targer="_blank">Madi Webb</a>. 
+            <br />
+            <p className="text-center text-sm text-gray-500 overline">
+              React.js | SCSS | Express | PostgreSQL </p>
+            <br />
+          </p>
+        </div>
+
         {/* Client Templates */}
         <div>
           <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href="https://tired-template.netlify.app" target="_blank">
