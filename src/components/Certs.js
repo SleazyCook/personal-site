@@ -15,6 +15,15 @@ const Certs = () => {
         <br />
 
         <li>
+          <p><b>Advanced CSS & SASS</b></p>
+          <p>Certificate of Completion</p>
+          <p>Issued: March 5th, 2023</p>
+          <p>Udemy</p>
+        </li>
+
+        <br />
+
+        <li>
           <p><b>The Git & GitHub Bootcamp</b></p>
           <p>Certificate of Completion</p>
           <p>Issued: February 14, 2023</p>
