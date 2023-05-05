@@ -20,8 +20,13 @@ const Websites = () => {
             {websiteObj.name} </a></p>
 
             <p className="text-center">
-              {websiteObj.group ?  "Group project" : "Solo project"} | 
-              <span className="text-xl"><BsGithub /></span>
+              {websiteObj.group ?  <>  Group project </> : <>Solo project</>}
+              &nbsp;| &nbsp;
+              <a 
+                href={websiteObj.github} target="_blank"
+                className="transition-all ease-in hover:text-gray-500">
+                  GitHub</a>
+              {/* <span className="text-xl"><BsGithub /></span> */}
               
             </p>
 
