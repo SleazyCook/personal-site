@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import {websiteData} from "./WebsiteData";
 
 const Websites = () => {
   return (
