@@ -1,7 +1,7 @@
 export const gamesData = [
 
   {
-    name: "Card Slam | Card Games & More",
+    name: "Card Slam | Play Together",
     link: "https://card-slam.netlify.app/",
     github: "https://github.com/Website-Slammers/card-slam",
     description: "Group project: sleek website hosting several cards games including Hearts and Spades. This site aims to host a variety of game options and hopefully the ability to host mulitplayer games across different computers.",
