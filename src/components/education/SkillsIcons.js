@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {iconsData} from './SkillsIconsData';
 
 const SkillsIcons = () => {
   // const [isClicked, setIsClicked] = useState(false);
@@ -14,90 +15,20 @@ const SkillsIcons = () => {
     <div>
       {/* <div className={ isClicked ? hoverSkillsContainer : normalSkillsContainer} onClick={handleClick}> */}
       <div className="flex flex-wrap max-h-[600px] justify-center md:flex-col mx-25">
-        <div className="flex flex-col self-center">
-          <p className="self-center">
-            HTML
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="html icon" src="https://img.icons8.com/color/344/html-5--v1.png"></img>
-        </div>
 
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            CSS
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="css icon" src="https://img.icons8.com/color/344/css3.png"></img>
-        </div>
+        {iconsData.map((iconsObj) => {
+          return (
+            <div className="flex flex-col self-center">
+              <p className="self-center">
+                {iconsObj.name}
+              </p>
+              <img className="self-center h-[80px] w-[80px]" alt="html icon" src={iconsObj.link}></img>
+            </div>
+          )
+        })}
 
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            JavaScript
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="javascript icon" src="https://img.icons8.com/color/344/javascript--v2.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            Python
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="python icon" src="https://i.imgur.com/94CxOHI.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            Git
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="git icon" src="https://img.icons8.com/color/344/git.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            Tailwind
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="tailwind css icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            SASS
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="sass css icon" src="https://i.imgur.com/NyWA8d2.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            React.js
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="react icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            Express.js
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="express icon" src="https://www.mementotech.in/assets/images/icons/express.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            Node.js
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="node icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968322.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            SQL
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="SQL icon" src="https://i.imgur.com/5U8tqnc.png"></img>
-        </div>
-
-        <div className="flex flex-col md:self-center">
-          <p className="self-center">
-            PostgreSQL
-          </p>
-          <img className="self-center h-[80px] w-[80px]" alt="post gres Q L icon" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg"></img>
-        </div>
       </div>
+
     </div>
   )
 }
