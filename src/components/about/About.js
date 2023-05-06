@@ -9,27 +9,34 @@ const About = () => {
       <p className='text-center text-2xl underline'>My Story</p>
       <br />
       <p className="max-w-[600px] mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu leo orci. Pellentesque mattis velit est, semper mattis enim euismod maximus. Quisque augue turpis, iaculis vel pellentesque nec, consequat nec ligula. Quisque sodales metus neque, et sollicitudin nibh lacinia a. Donec nisi justo, ullamcorper eu molestie at, pulvinar sed dolor. Nullam dignissim urna odio, et eleifend est posuere eget. Ut ultrices dictum hendrerit. Etiam eu metus id justo euismod cursus. Praesent maximus odio hendrerit, laoreet dolor sit amet, fringilla nisl. Curabitur quis elit auctor ante egestas condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        My name is Andrew Cook, and I'm a web developer based in Houston, Texas with a background in healthcare management. I grew up in the Rio Grande Valley of Texas. I graduated a year early from Nikki Rowe High School in McAllen, Texas and immediately started my college education at the University of Texas - Pan American in Edinburg, Texas where I started studying psychology and philosophy. As I started taking on higher level classes I transfered to Sam Houston State University outside of Houston where I studied psychology and sociology.
 
         <br />
         <br />
 
-        Cras blandit turpis vitae dolor pharetra, id suscipit velit laoreet. Donec rutrum urna nisi, nec cursus massa blandit bibendum. Nunc nunc dui, varius sed enim eu, ullamcorper mattis tortor. Suspendisse mollis bibendum lacus a lacinia. Cras venenatis consectetur nulla, et luctus mi pulvinar non. Ut dignissim ultrices purus non efficitur. Mauris urna quam, ornare eget est non, rutrum tristique turpis. In rutrum consequat purus efficitur venenatis. Vivamus porta pellentesque leo non condimentum. Quisque vitae dignissim dolor.
+        Despite a passion for social sciences and higher education, I didn't graduate. I leaned into work and found myself working long hours in customer service and overnight clerical positions. I eventually found my way into healthcare management through Brave Hearts Children Center, a residential treatment center for children with intense and violent behaviors. I was passionate about working with these kids and learning the ins and outs of vairous levels of management while supervising up to 65 residents and 40 staff daily. When the center shut down, I continued my work as a manager at a covid testing site in The Woodlands, Texas for Curative. While the site was smaller, we were taking on close to 1,000 patients a day during the Omicron spike. As interest in testing declined exponentially, I found my success with a company cut short once again by another lay off. 
 
         <br />
         <br />
 
-        Aenean mi nisi, faucibus pulvinar consequat eu, fringilla a lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat scelerisque tortor, vitae maximus eros. Donec fringilla vel purus vel blandit. Etiam rutrum venenatis dignissim. Integer pulvinar dignissim ante et rhoncus. Donec placerat tincidunt lobortis. Fusce posuere semper justo eu ultrices. Curabitur et rhoncus mi. Phasellus in purus lectus.
+        With a decade of experience and softskills in management and customer service, I decided it was time for some hard skills. That's when I discovered Fullstack Academy and their Full-Stack Web Development Bootcamp. I poured all of my time and attention into that experience for the full twelve weeks. Through tough weekly projects, I discovered an entirely new passion for programming. I would code in my freetime and even wake up in the middle of the night suddenly with the solution to the bugs in my code from earlier in the day. By graduation, I was proficient in HTML, CSS, JavaScript, React, Node, Express, PostgreSQL, SQL, API, Git, GitHub, Netlify, and Render.
         
         <br />
         <br />
 
-        Etiam ut elit ut ante fringilla gravida vitae eget massa. Sed lacinia luctus quam, non porta erat pellentesque convallis. Morbi condimentum gravida sapien at placerat. In malesuada et dolor nec consectetur. Duis tincidunt massa quis nisi mollis commodo. Vivamus euismod aliquam finibus. Duis dignissim odio ut metus egestas efficitur. Nullam ut ipsum quis metus efficitur egestas vel at massa. Sed at consequat ipsum. In in finibus tortor. Cras et ornare erat, vitae convallis enim. Mauris libero lectus, mollis auctor arcu eget, egestas facilisis elit. Duis commodo turpis sodales, aliquet elit cursus, posuere lorem. Vivamus malesuada elit urna, vel egestas ex commodo quis.
+        After graduation I decided to stay home as long as I could make it work financially to keep working on my skills. I gained a higher understanding of the technology I was already familiar with like React and JavaScript. I took on new technologies like Tailwind CSS, Python, Material UI, CSS Grid, SCSS, Vue, and TypeScript. I worked on projects solo and made sure to keep in touch with my fellow Fullstack alums to work on group projects on a weekly basis. Some of my highlights in the time include a "web slam" project with Ian Sorensen where we made something new every week for a month or template website with Zach Power to meet with potential clients. My best passion so far is Marathon, a streaming site built with Madilyn Webb.
 
         <br />
         <br />
 
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec malesuada nibh ut eros elementum mattis semper sit amet purus. Phasellus malesuada ut neque et dapibus. Vivamus sit amet viverra mi, vitae imperdiet metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin porttitor efficitur sagittis. Proin sit amet urna et eros elementum feugiat nec at lacus. Cras lobortis congue lorem ut sagittis. Vivamus neque lorem, dignissim sed ex id, ornare tincidunt nisi. Aliquam pharetra dignissim nibh ut dignissim.
+        
+        These days I'm applying for software engineering roles across the country, but I still find the time to work on group projects and work on algorithm practice regularly. 
+
+        <br />
+        <br />
+
+        Thank you for visiting my website, and I hope you enjoy my portfolio of websites and games. If you have any questions or would liket o work with me, please feel free to get in touch. 
+
       </p>
 
       <br />
