@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from './Footer';
+import Footer from '../app/Footer';
 import {websiteData} from "./WebsiteData";
 
 import {FaUserAstronaut} from 'react-icons/fa';

@@ -1,7 +1,7 @@
 import React from 'react';
 import SkillsIcons from './SkillsIcons';
 import Certs from './Certs';
-import Footer from './Footer';
+import Footer from '../app/Footer';
 
 const Skills = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from './Preview';
-import Footer from './Footer';
+import Footer from '../app/Footer';
 
 const Home = () => {
   return (
