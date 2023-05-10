@@ -4,7 +4,7 @@ export const websiteData = [
     name: "Marathon | Streaming Service",
     link: "https://watch-marathon.netlify.app/",
     github: "https://github.com/orgs/React-Royalty/repositories",
-    description: "Browse through today's most popular movies and television shows. Choose from any genre, or just browse by a certain vibe. Marathon is a streaming service primarily cloned from Netflix.com. For legal reasons, we will only have trailers available for viewing. This project was pair programmed by myself and fellow Fullstack Academy alum Madi Webb.",
+    description: "Browse through today's most popular movies and television shows. Choose from any genre, or just browse by a certain vibe. Marathon is a streaming service primarily cloned from Netflix.com. For legal reasons, we will only have trailers available for viewing. This project was pair programmed by myself and fellow Fullstack Academy alum Madilyn Webb.",
     group: true,
     stack: "React.js | SCSS | Express | PostgreSQL | API | Netlify | Render"
   },
