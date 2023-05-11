@@ -69,7 +69,7 @@ export const websiteData = [
     name: "Poster Children | E-Commerce Web Application",
     link: "https://poster-children.netlify.app",
     github: "https://github.com/2209-Poster-Children",
-    description: "Capstone Project from Fullstack Academy Bootcamp. Collaboration with a small group of cohorts to create a fake, but functional E-Commerce website for buying posters from movies, musical artists, and videogames. Register and create an account. Add items to your cart and store addresses and credit card information for checkout. Leave reviews on shop items.",
+    description: "Capstone Project from Fullstack Academy Bootcamp. Collaboration with a small group of cohorts to create a fictional, but functional E-Commerce website for buying posters from movies, musical artists, and videogames. Register and create an account. Add items to your cart and store addresses and credit card information for checkout. Leave reviews on shop items.",
     group: true,
     stack: "React.js | CSS | Express.js | PostgreSQL | API | Stripe | Netlify | Render"
   },
