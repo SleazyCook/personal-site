@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center ">
 
           {/* header on left side of nav */}
-          <h1 className='text-3xl font-serif'><a href="https://developedbydrewford.netlify.app">
+          <h1 className='text-3xl font-serif'><a href="https://drewford.dev">
             <span>Developed by </span>
             <span className='font-swash'>Drewford</span>
             <br />

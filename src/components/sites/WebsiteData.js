@@ -31,7 +31,7 @@ export const websiteData = [
 
   {
     name: "Curse of Strahd: Plight of the Sunseekers",
-    link: "https://sunseekers.netlify.app",
+    link: "https://sunseekers.drewford.dev",
     github: "https://github.com/SleazyCook/sunseekers",
     description: "Curse of Strahd is a popular campaign within the tabletop game Dungeons & Dragons. Plight of the Sunseekers is my take on Curse of Strahd with my friends that play across the country on the virtual game board offered by Roll20. This site contains my public notes for the game so far.",
     group: false,
