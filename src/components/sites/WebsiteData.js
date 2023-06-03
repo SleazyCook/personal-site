@@ -22,7 +22,7 @@ export const websiteData = [
 
   {
     name: "Cozy Cuddles | Adopt a Pet",
-    link: "https://cozy-cuddles.netlify.app",
+    link: "https://cozy-cuddles.drewford.dev",
     github: "https://github.com/SleazyCook/adoption",
     description: "Landing page for a fictional pet adoption agency. This project uses CSS Grid to create a fully responsive web application to market this agency including their services offered and values. Browse through available pets and get to know them by name, age, and breed. At the bottom of the web page, there is a beautiful form using custom radio buttons to submit an inquiry for adoption, volunterring, and more.",
     group: false,
@@ -41,7 +41,7 @@ export const websiteData = [
   {
     name: "Natours | Nature Tours",
     link: "https://natours-by-drewford.netlify.app",
-    github: "https://github.com/SleazyCook/natours",
+    github: "https://natours.drewford.dev",
     description: "Static site using only HTML and SASS originally created by Jonas Schedtmann for his Advanced CSS and SASS course for Udemy. Natours is a landing page for a fictional company that offers a variety of natours tours. Follow through a page a of various animations to see features, reviews, and book your first tour.",
     group: false,
     stack: "HTML | SASS | Netlify"
@@ -76,7 +76,7 @@ export const websiteData = [
 
   {
     name: "Dwayne's Travel Journal | D&D Companion",
-    link: "https://dwayne-the-shell.netlify.app",
+    link: "https://dwayne.drewford.dev",
     github: "https://github.com/SleazyCook/dwayne-the-shell",
     description: "Player notes for a D&D campaign. Character is Dwayne the Shell Johnson, a small humanoid turtle merchant who moonlights as a mercenary. This site contains character art, notes from game sessions, and invtenory items. There is also a hidden backstory page.",
     group: false,

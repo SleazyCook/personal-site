@@ -20,7 +20,7 @@ export const gamesData = [
 
   {
     name: "Curse of Strahd: Durst Manor",
-    link: "https://death-house.netlify.app/",
+    link: "https://death-house.drewford.dev/",
     github: "https://github.com/SleazyCook/Durst-Manor",
     description: "A multiple choice adventure game based on the introduction to the popular Curse of Strahd campagin setting from Dungeons and Dragons. To start you will choose a character ability: Strength, Dexterity, Charisma, or Luck. Use your ability to navigate through Durst Manor to uncover the truth and get out alive!",
     group: false,

@@ -7,7 +7,7 @@ export const previewData = [
   {
     name: "Cozy Cuddles",
     img: "https://i.imgur.com/OjdPoW7.png",
-    link: "https://cozy-cuddles.netlify.app"
+    link: "https://cozy-cuddles.drewford.dev"
   },
   {
     name: "Marathon",
@@ -35,13 +35,13 @@ export const previewData = [
   {
     name: "Dwayne the Shell | Companion Guide",
     img: "https://i.imgur.com/sga8piV.png",
-    link: "https://dwayne-the-shell.netlify.app"
+    link: "https://dwayne.drewford.dev"
   },
 
   {
     name: "Natours",
     img: "https://i.imgur.com/Ho4JL3Z.png",
-    link: "https://natours-by-drewford.netlify.app"
+    link: "https://natours.drewford.dev"
   },
 
   {
@@ -71,7 +71,7 @@ export const previewData = [
   {
     name: "Curse of Strahd: Durst Manor",
     img: "https://i.imgur.com/q1UVNrk.png",
-    link: "https://death-house.netlify.app"
+    link: "https://death-house.drewford.dev"
   },
   
   {
