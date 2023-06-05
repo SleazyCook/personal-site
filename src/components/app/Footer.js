@@ -1,4 +1,4 @@
-import React from 'react';
+import "./footer.css"
 
 const Footer = () => {
   return(
@@ -14,15 +14,19 @@ const Footer = () => {
 
       {/* Social Links */}
       <div className="flex justify-center pt-[5px]">
+        {/* GitHub Link */}
+        &nbsp;
+        <a href="https://github.com/SleazyCook" target="_blank"><img className="f-icon" alt="git hub icon" src="https://i.imgur.com/AGte8x2.png" height="35" width="35"/></a>
         {/* LinkedIn Link */}
-        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img alt="linked in icon" src="https://i.imgur.com/aiv7WDz.png" height="35" width="35"></img></a>
+        &nbsp;
+        <a href="https://www.linkedin.com/in/andrew-cook-271544205/" target="_blank"><img className="f-icon" alt="linked in icon" src="https://i.imgur.com/aiv7WDz.png" height="35" width="35"></img></a>
         {/* spacer */}
         &nbsp;
         {/* Discord Link */}
-        <a href="https://discord.gg/SAgrmBXjeV" target="_blank"><img alt="discord icon" src="https://i.imgur.com/zAljZQy.png" height="35" width="35"></img></a>
+        <a href="https://discord.gg/SAgrmBXjeV" target="_blank"><img className="f-icon" alt="discord icon" src="https://i.imgur.com/zAljZQy.png" height="35" width="35"></img></a>
         &nbsp;
         {/* Code Wars Link */}
-        <a href="https://www.codewars.com/users/sleazycook" target="_blank"><img alt="code wars icon" src="https://i.imgur.com/L48uyJR.png" heigh="35" width="35"></img></a>
+        <a href="https://www.codewars.com/users/sleazycook" target="_blank"><img className="f-icon" alt="code wars icon" src="https://i.imgur.com/L48uyJR.png" height="35" width="35"></img></a>
       </div>
 
       <br />
