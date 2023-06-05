@@ -9,6 +9,14 @@ export const previewData = [
     img: "https://i.imgur.com/OjdPoW7.png",
     link: "https://cozy-cuddles.drewford.dev"
   },
+// When Tailored Tails is ready, move Cozy Cuddles below Sudoku
+
+  // {
+  //   name: "Tailored Tails",
+  //   img: "",
+  //   link: "https://tailoredtails.netlify.app"
+  // },
+  
   {
     name: "Marathon",
     img: "https://i.imgur.com/3Tg2GrG.jpg",

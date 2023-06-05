@@ -3,6 +3,15 @@ export const websiteData = [
   // icons later
 
   {
+    name: "Tailored Tails | Shareable Pet Profiles",
+    link: "https://tailoredtails.netlify.app",
+    github: "https://github.com/luce-code/TailoredTails",
+    description: "Keep all of your pet's information in one place.  Store medical data, food preferences, likes & dislikes all in one profile that can be easily accessed at any time. Share this profile with any pet sitter when you go out of town, or share this profile with your vet.  Stay up to date with shots with an easy calendar that can be updated by you and your vet.",
+    group: true,
+    stack: "React.js | CSS | Express | MongoDB | API | Netlify | ------backend service----------"
+  },
+
+  {
     name: "Marathon | Streaming Service",
     link: "https://watch-marathon.netlify.app/",
     github: "https://github.com/orgs/React-Royalty/repositories",
@@ -12,12 +21,12 @@ export const websiteData = [
   },
 
   {
-    name: "Zach and Drew Make Websites",
-    link: "https://come-at-us.netlify.app",
-    github: "https://github.com/orgs/Tired-Poor/repositories",
-    description: "Pair Programming project with developer Zach Power to create a variety of front end project templates including portfolios, product landing pages, and more. This site serves as an outreach to potential freelance clients for a their unique and specific needs by showcasing a wide range of possibile webpages.",
-    group: true,
-    stack: "React.js | CSS | SCSS | Netlify"
+    name: "Curse of Strahd: Plight of the Sunseekers",
+    link: "https://sunseekers.drewford.dev",
+    github: "https://github.com/SleazyCook/sunseekers",
+    description: "Curse of Strahd is a popular campaign within the tabletop game Dungeons & Dragons. Plight of the Sunseekers is my take on Curse of Strahd with my friends that play across the country on the virtual game board offered by Roll20. This site contains my public notes for the game so far.",
+    group: false,
+    stack: "React.js | SCSS | Netlify"
   },
 
   {
@@ -30,12 +39,12 @@ export const websiteData = [
   },
 
   {
-    name: "Curse of Strahd: Plight of the Sunseekers",
-    link: "https://sunseekers.drewford.dev",
-    github: "https://github.com/SleazyCook/sunseekers",
-    description: "Curse of Strahd is a popular campaign within the tabletop game Dungeons & Dragons. Plight of the Sunseekers is my take on Curse of Strahd with my friends that play across the country on the virtual game board offered by Roll20. This site contains my public notes for the game so far.",
-    group: false,
-    stack: "React.js | SCSS | Netlify"
+    name: "Zach and Drew Make Websites",
+    link: "https://come-at-us.netlify.app",
+    github: "https://github.com/orgs/Tired-Poor/repositories",
+    description: "Pair Programming project with developer Zach Power to create a variety of front end project templates including portfolios, product landing pages, and more. This site serves as an outreach to potential freelance clients for a their unique and specific needs by showcasing a wide range of possibile webpages.",
+    group: true,
+    stack: "React.js | CSS | SCSS | Netlify"
   },
 
   {
