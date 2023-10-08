@@ -32,7 +32,7 @@ const About = () => {
         {story.map((storyObj) => {
           return (
             <>
-              <span key={storyObj.id} className='block mb-4'>{storyObj.text}</span>
+              <span key={storyObj.id} className='block mb-4 indent-6'>{storyObj.text}</span>
             </>
           )
         })}
