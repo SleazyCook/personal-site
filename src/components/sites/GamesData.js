@@ -1,6 +1,6 @@
 export const gamesData = [
-
   {
+    id: 1,
     name: "Card Slam | Play Together",
     link: "https://card-slam.netlify.app/",
     github: "https://github.com/Website-Slammers/card-slam",
@@ -8,8 +8,8 @@ export const gamesData = [
     group: true,
     stack: "React.js | SCSS | Netlify"
   },
-
   {
+    id: 2,
     name: "Sudoku",
     link: "https://sudoku-slam.netlify.app/",
     github: "https://github.com/Website-Slammers/Su-Do-Ku",
@@ -17,8 +17,8 @@ export const gamesData = [
     group: true,
     stack: "React.js | SCSS | Netlify"
   },
-
   {
+    id: 3,
     name: "Curse of Strahd: Durst Manor",
     link: "https://death-house.drewford.dev/",
     github: "https://github.com/SleazyCook/Durst-Manor",
@@ -26,8 +26,8 @@ export const gamesData = [
     group: false,
     stack: "HTML | CSS | JavaScript | Netlify"    
   },
-
   {
+    id: 4,
     name: "Pokemon Picker",
     link: "https://gotta-pick-em-all.netlify.app/",
     github: "https://github.com/Website-Slammers/PokemonPicker",
@@ -35,8 +35,8 @@ export const gamesData = [
     group: true,
     stack: "React.js | CSS | API | Netlify"
   },
-
   {
+    id: 5,
     name: "Connect 4",
     link: "https://connect4bydrewford.netlify.app/",
     github: "https://github.com/SleazyCook/project_03",
@@ -44,8 +44,8 @@ export const gamesData = [
     group: false,
     stack: "HTML | CSS | JavaScript | Netlify"
   },
-
   {
+    id: 6,
     name: "Pixelate",
     link: "https://pixel8game.netlify.app/",
     github: "https://github.com/SleazyCook/pixelate_asignment",
@@ -53,8 +53,8 @@ export const gamesData = [
     group: false,
     stack: "HTML | CSS | JavaScript | Netlify"
   },
-
   {
+    id: 7,
     name: "Puppy Clicker",
     link: "https://puppy-clicker.netlify.app/",
     github: "https://github.com/SleazyCook/project_02",

@@ -1,17 +1,15 @@
 export const websiteData = [
-
-  // icons later
-
   {
+    id: 1,
     name: "Tailored Tails | Shareable Pet Profiles",
     link: "https://tailoredtails.netlify.app",
     github: "https://github.com/luce-code/TailoredTails",
     description: "Keep all of your pet's information in one place.  Store medical data, food preferences, likes & dislikes all in one profile that can be easily accessed at any time. Share this profile with any pet sitter when you go out of town, or share this profile with your vet.  Stay up to date with shots with an easy calendar that can be updated by you and your vet.",
     group: true,
-    stack: "React.js | CSS | Express | MongoDB | API | Netlify | ------backend service----------"
+    stack: "React.js | CSS | Express | MongoDB | API | Netlify"
   },
-
   {
+    id: 2,
     name: "Marathon | Streaming Service",
     link: "https://watch-marathon.netlify.app/",
     github: "https://github.com/orgs/React-Royalty/repositories",
@@ -19,8 +17,8 @@ export const websiteData = [
     group: true,
     stack: "React.js | SCSS | Express | PostgreSQL | API | Netlify | Render"
   },
-
   {
+    id: 3,
     name: "Curse of Strahd: Plight of the Sunseekers",
     link: "https://sunseekers.drewford.dev",
     github: "https://github.com/SleazyCook/sunseekers",
@@ -28,8 +26,8 @@ export const websiteData = [
     group: false,
     stack: "React.js | SCSS | Netlify"
   },
-
   {
+    id: 4,
     name: "Cozy Cuddles | Adopt a Pet",
     link: "https://cozy-cuddles.drewford.dev",
     github: "https://github.com/SleazyCook/adoption",
@@ -37,8 +35,8 @@ export const websiteData = [
     group: false,
     stack: "React.js | SCSS | Netlify"
   },
-
   {
+    id: 5,
     name: "Zach and Drew Make Websites",
     link: "https://come-at-us.netlify.app",
     github: "https://github.com/orgs/Tired-Poor/repositories",
@@ -46,8 +44,8 @@ export const websiteData = [
     group: true,
     stack: "React.js | CSS | SCSS | Netlify"
   },
-
   {
+    id: 6,
     name: "Natours | Nature Tours",
     link: "https://natours-by-drewford.netlify.app",
     github: "https://natours.drewford.dev",
@@ -55,8 +53,8 @@ export const websiteData = [
     group: false,
     stack: "HTML | SASS | Netlify"
   },
-
   {
+    id: 7,
     name: "trillo | Hotel Booking",
     link: "https://trillo-by-drewford.netlify.app",
     github: "https://github.com/SleazyCook/trillo",
@@ -64,8 +62,8 @@ export const websiteData = [
     group: false,
     stack: "HTML | SASS | Netlify"
   },
-
   {
+    id: 8,
     name: "nexter | Your Own Home",
     link: "https://nexter-by-drewford.netlify.app",
     github: "https://github.com/SleazyCook/Nexter",
@@ -73,8 +71,8 @@ export const websiteData = [
     group: false,
     stack: "HTML | SASS | Netlify"
   },
-
   {
+    id: 9,
     name: "Poster Children | E-Commerce Web Application",
     link: "https://poster-children.netlify.app",
     github: "https://github.com/2209-Poster-Children",
@@ -82,8 +80,8 @@ export const websiteData = [
     group: true,
     stack: "React.js | CSS | Express.js | PostgreSQL | API | Stripe | Netlify | Render"
   },
-
   {
+    id: 10,
     name: "Dwayne's Travel Journal | D&D Companion",
     link: "https://dwayne.drewford.dev",
     github: "https://github.com/SleazyCook/dwayne-the-shell",
@@ -91,8 +89,8 @@ export const websiteData = [
     group: false,
     stack: "React.js | SCSS | Netlify"
   },
-
   {
+    id: 11,
     name: "Delavega Autoplex",
     link: "https://delavegaautoplex.netlify.app",
     github: "https://github.com/SleazyCook/autoplex",
@@ -100,8 +98,8 @@ export const websiteData = [
     group: false,
     stack: "React.js | CSS | Express.js | PostgreSQL | API | Netlify"
   },
-
   {
+    id: 12,
     name: "Drewford's List",
     link: "https://drewfordslist.netlify.app",
     github: "https://github.com/SleazyCook/project_05",

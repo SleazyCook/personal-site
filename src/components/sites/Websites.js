@@ -15,7 +15,8 @@ const Websites = () => {
 
         {websiteData.map((websiteObj) => {
           return (
-            <div>
+            <div key='websiteObj.id'>
+              {console.log('test: ', websiteObj.id)}
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={websiteObj.link} target="_blank">
             {websiteObj.name} </a></p>
 
@@ -26,18 +27,17 @@ const Websites = () => {
                 href={websiteObj.github} target="_blank"
                 className="transition-all ease-in hover:text-gray-500">
                   GitHub</a>
-              {/* <span className="text-xl"><BsGithub /></span> */}
               
             </p>
 
             <p>{websiteObj.description}
               <br />
-              <p className="text-center text-sm text-gray-500 overline">
-                {websiteObj.stack} </p>
+              <span className=" block text-center text-sm text-gray-500 overline">
+                {websiteObj.stack} </span>
               <br />
             </p>
             
-            </div>
+          </div>
           )
         })}
 

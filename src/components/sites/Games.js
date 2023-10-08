@@ -12,7 +12,7 @@ const Games = () => {
 
         {gamesData.map((gameObj) => {
           return (
-            <div>
+            <div key={gameObj.id}>
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={gameObj.link} target="_blank">
             {gameObj.name}</a></p>
 
@@ -23,14 +23,13 @@ const Games = () => {
                 href={gameObj.github} target="_blank"
                 className="transition-all ease-in hover:text-gray-500">
                   GitHub</a>
-              {/* <span className="text-xl"><BsGithub /></span> */}
             </p>
 
             <p>{gameObj.description}
-            <br />
-            <p className="text-center text-sm text-gray-500 overline">
-              {gameObj.stack}
-            </p>
+              <br />
+              <span className="block text-center text-sm text-gray-500 overline">
+                {gameObj.stack}
+              </span>
             <br />
           </p>
 
