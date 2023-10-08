@@ -2,6 +2,26 @@ import React from 'react';
 import Footer from '../app/Footer';
 
 const About = () => {
+
+  const story = [
+    {
+      id: 1,
+      text: "With a diverse professional background spanning a decade in customer service and two years in management, my journey into the world of full-stack web development has been marked by passion, perseverance, and a commitment to continuous learning. In 2022, I made a pivotal decision to transition my career and enrolled in Full Stack Academy, embarking on a transformative journey that has since defined my professional trajectory."
+    },
+    {
+      id: 2,
+      text: "Within a year of graduating from Full Stack Academy, I immersed myself in the art and science of web development, rapidly acquiring the skills and knowledge necessary to thrive in this dynamic field. I was driven by an insatiable curiosity and an unwavering work ethic, which enabled me to deploy over 40 websites and actively contribute to the open-source community on GitHub. This commitment to open-source collaboration further honed my coding abilities and fostered a spirit of collaboration."
+    },
+    {
+      id: 3,
+      text: "My dedication to practical experience led me to pursue internships with leading tech companies. At Seminaut Inc, I had the privilege of working on their Guild Gaming project, where I honed my development skills in a real-world setting. While I was still working for Seminaut Inc, I joined DecOps as an intern, contributing to their SimplyFi project, which deepened my understanding of tech work cycles and project management. These experiences proved invaluable, and I was thrilled to be invited back to Seminaut as a Junior Software Engineer after successfully completing my internship."
+    },
+    {
+      id: 4,
+      text: "My journey from customer service to full-stack web development has been marked by a relentless pursuit of excellence, a passion for problem-solving, and a dedication to teamwork. I am excited to continue leveraging my diverse skill set, technical acumen, and collaborative mindset to make meaningful contributions to the ever-evolving world of web development. As I move forward in my career, I remain committed to pushing the boundaries of innovation and delivering exceptional digital solutions."
+    }
+  ]
+
   return (
     <div className="mx-10">
       <br />
@@ -9,33 +29,13 @@ const About = () => {
       <p className='text-center text-2xl underline'>My Story</p>
       <br />
       <p className="max-w-[600px] mx-auto">
-        My name is Andrew Cook, and I'm a web developer based in Houston, Texas with a background in healthcare management. I grew up in the Rio Grande Valley of Texas. I graduated a year early from Nikki Rowe High School in McAllen, Texas and immediately started my college education at the University of Texas - Pan American in Edinburg, Texas where I started studying psychology and philosophy. As I started taking on higher level classes I transfered to Sam Houston State University outside of Houston where I studied psychology and sociology.
-
-        <br />
-        <br />
-
-        Despite a passion for social sciences and higher education, I didn't graduate. I leaned into work and found myself working long hours in customer service and overnight clerical positions. I eventually found my way into healthcare management through Brave Hearts Children Center, a residential treatment center for children age 0-17 with intense and violent behaviors. I was passionate about working with these kids and learning the ins and outs of vairous levels of management while supervising up to 65 residents and 40 staff daily. When the center shut down, I continued my work as a manager at a covid testing site in The Woodlands, Texas for Curative. While the site was smaller, we were taking on close to 1,000 patients a day during the Omicron spike. As interest in testing declined exponentially, I found my success with a company cut short once again by another lay off. 
-
-        <br />
-        <br />
-
-        With a decade of experience and softskills in management and customer service, I decided it was time to develop some hard skills. That's when I discovered Fullstack Academy and their Full-Stack Web Development Bootcamp. I poured all of my time and attention into that experience for the full twelve weeks. Through tough weekly projects, I discovered an entirely new passion for programming. I would code in my freetime and even wake up in the middle of the night suddenly with the solution to the bugs in my code from earlier in the day. By graduation, I was proficient in HTML, CSS, JavaScript, React, Node, Express, PostgreSQL, SQL, API, Git, GitHub, Netlify, and Render.
-        
-        <br />
-        <br />
-
-        After graduation I decided to stay home as long as I could make it work financially to keep working on my skills. I gained a higher understanding of the technology I was already familiar with like React and JavaScript. I took on new technologies like Tailwind CSS, Python, Material UI, CSS Grid, SCSS, Vue, and TypeScript. I worked on projects solo and made sure to keep in touch with my fellow Fullstack alums to work on group projects on a weekly basis. Some of my highlights from the time include a "web slam" project with Ian Sorensen where we made something new every week for a month or template website with Zach Power to meet with potential clients. My best passion project so far is Marathon, a streaming site built with Madilyn Webb.
-
-        <br />
-        <br />
-
-        
-        These days I'm expanding my network and aggressively applying for software engineering roles across the country, but I still find the time to work on group projects and work on algorithm practice regularly. 
-
-        <br />
-        <br />
-
-        Thank you for visiting my website, and I hope you enjoy my portfolio of websites and games. If you have any questions or would liket o work with me, please feel free to get in touch. 
+        {story.map((storyObj) => {
+          return (
+            <>
+              <span key={storyObj.id} className='block mb-4'>{storyObj.text}</span>
+            </>
+          )
+        })}
 
       </p>
 
