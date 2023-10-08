@@ -26,10 +26,10 @@ const Preview = () => {
         ">
           
           {previewData.map((item) => (
-            <a href={item.link} target="_blank">
+            <a key={item.id} href={item.link} target="_blank">
               {/* Let's work on getting all images to uniform sizing with 4:3 ratio */}
                <img
-              className='w-[220px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.img} alt="/" />
+              className='w-[220px] h-[160px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.img} alt="/" />
             </a>
           ))}
 

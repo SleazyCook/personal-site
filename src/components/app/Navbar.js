@@ -8,6 +8,39 @@ const Navbar = () => {
   const [menu_class, setMenuClass] = useState("menu hidden")
   const [isMenuClicked, setIsMenuClicked] = useState(false)
 
+  const navigationArray = [
+    {
+      id: 1,
+      name: "Home",
+      link: "/"
+    },
+    {
+      id: 2,
+      name: "Websites",
+      link: "websites"
+    },
+    {
+      id: 3,
+      name: "Games",
+      link: "games"
+    },
+    {
+      id: 4,
+      name: "Skills",
+      link: "skills"
+    },
+    {
+      id: 5,
+      name: "About",
+      link: "about"
+    },
+    {
+      id: 6,
+      name: "Contact",
+      link: "contact"
+    }
+  ]
+
   // toggle burger menu change
   const updateMenu = () => {
       if(!isMenuClicked) {
@@ -21,18 +54,13 @@ const Navbar = () => {
       setIsMenuClicked(!isMenuClicked)
   }
 
-  // function Menu(e){
-  //   let list = document.getElementById('nav-list');
-  //   e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
-  // }
-
   return (
     <nav className="text-center space-x-4">
 
       <nav className="p-5 bg-black shadow lg:flex lg:items-center lg:justify-between">
         <div className="flex justify-between items-center ">
 
-          {/* header on left side of nav */}
+          {/* Website Header - Link back to '/' */}
           <h1 className='text-3xl font-serif'><a href="https://drewford.dev">
             <span>Developed by </span>
             <span className='font-swash'>Drewford</span>
@@ -40,8 +68,7 @@ const Navbar = () => {
             <span className='text-lg overline'>Andrew Cook - Web Developer</span>
           </a></h1>
 
-
-          {/* style={{width: '100%', height: '100vh'}} */}
+          {/* Hamburger Button */}
           <div id="box" className="lg:opacity-0 opacity-100">
             <div id="burger-house">
                 <div className="burger-menu" onClick={updateMenu}>
@@ -50,63 +77,31 @@ const Navbar = () => {
                     <div className={burger_class} ></div>
                 </div>
             </div>
-            {/* Drop down menu */}
-            {/* className="transition-all ease-in duration-500" */}
+
+            {/* Vertical Dropdown Menu */}
             <div className={menu_class}>
-              <br />
-              <Link to="/" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Home</Link>
-              <br />
-              <br />
-              <Link to="websites" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Websites</Link>
-              <br />
-              <br />
-              <Link to="games" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Games</Link>
-              <br />
-              <br />
-              <Link to="skills" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Skills</Link>
-              <br />
-              <br />
-              <Link to="About" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">About</Link>
-              <br />
-              <br />
-              <Link to="Contact" onClick={updateMenu} className="text-xl hover:text-gray-500 duration-500">Contact</Link>
+              {navigationArray.map((navObj) => {
+                return (
+                  <Link key={navObj.id} to={navObj.link} onClick={updateMenu} className='block text-xl mt-4 mb-6 last:mb-2 hover:text-gray-500 duration-500'>{navObj.name}</Link>
+                )
+              })}
             </div>
         </div>
 
         </div>
 
-        {/* Pages on Horizontal Nav */}
-        <ul id="nav-list" class="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-black w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        {/* Horizontal Nav Menu */}
+        <ul id="nav-list" className="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-black w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 pl-7 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
 
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="/" class="text-xl hover:text-gray-500 duration-500">
-              Home</Link>
-          </li>
-
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="websites" class="text-xl hover:text-gray-500 duration-500"
-            >Websites</Link>
-          </li>
-
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="games" class="text-xl hover:text-gray-500 duration-500">
-              Games</Link>
-          </li>
-
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="skills" class="text-xl hover:text-gray-500 duration-500">
-              Skills</Link>
-          </li>
-
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="about" class="text-xl hover:text-gray-500 duration-500">
-              About</Link>
-          </li>
-
-          <li class="mx-4 my-6 lg:my-0">
-            <Link to="contact" class="text-xl hover:text-gray-500 duration-500">
-              Contact</Link>
-          </li>
+          {navigationArray.map((navObj) => {
+            return(
+              <li key={navObj.id} className='mx-4 my-6 lg:my-0'>
+                <Link to={navObj.link} className='text-xl hover:text-gray-500 duration-500'>
+                  {navObj.name}
+                </Link>
+              </li>
+            )
+          })}
 
         </ul>
       </nav>
