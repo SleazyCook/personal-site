@@ -16,7 +16,6 @@ const Websites = () => {
         {websiteData.map((websiteObj) => {
           return (
             <div key='websiteObj.id'>
-              {console.log('test: ', websiteObj.id)}
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={websiteObj.link} target="_blank">
             {websiteObj.name} </a></p>
 
