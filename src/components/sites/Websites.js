@@ -19,22 +19,22 @@ const Websites = () => {
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={websiteObj.link} target="_blank">
             {websiteObj.name} </a></p>
 
-            <p className="text-center">
-              {websiteObj.group ?  <> <span className='inline-block'><HiUserGroup /></span> Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
-              &nbsp;| &nbsp;
-              <a 
-                href={websiteObj.github} target="_blank"
-                className="transition-all ease-in hover:text-gray-500">
-                  <span className='inline-block'><BsGithub /></span> GitHub</a>
-              
-            </p>
+              <p className="text-center">
+                {websiteObj.group ?  <> <span className='inline-block'><HiUserGroup /></span> Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
+                &nbsp;| &nbsp;
+                <a 
+                  href={websiteObj.github} target="_blank"
+                  className="transition-all ease-in hover:text-gray-500">
+                    <span className='inline-block'><BsGithub /></span> GitHub</a>
+                
+              </p>
 
-            <p>{websiteObj.description}
-              <span className=" block text-center text-sm text-gray-500 overline">
-                {websiteObj.stack} </span>
-            </p>
+              <p>{websiteObj.description}
+                <span className=" block text-center text-sm text-gray-500 overline">
+                  {websiteObj.stack} </span>
+              </p>
             
-          </div>
+            </div>
           )
         })}
 

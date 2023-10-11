@@ -20,20 +20,20 @@ const Games = () => {
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={gameObj.link} target="_blank">
             {gameObj.name}</a></p>
 
-            <p className="text-center">
-              {gameObj.group ?  <><span className='inline-block'><HiUserGroup /></span>  Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
-              &nbsp;| &nbsp;
-              <a 
-                href={gameObj.github} target="_blank"
-                className="transition-all ease-in hover:text-gray-500">
-                  <span className='inline-block'><BsGithub /></span> GitHub</a>
-            </p>
+              <p className="text-center">
+                {gameObj.group ?  <><span className='inline-block'><HiUserGroup /></span>  Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
+                &nbsp;| &nbsp;
+                <a 
+                  href={gameObj.github} target="_blank"
+                  className="transition-all ease-in hover:text-gray-500">
+                    <span className='inline-block'><BsGithub /></span> GitHub</a>
+              </p>
 
-            <p>{gameObj.description}
-              <span className="block text-center text-sm text-gray-500 overline">
-                {gameObj.stack}
-              </span>
-          </p>
+              <p>{gameObj.description}
+                <span className="block text-center text-sm text-gray-500 overline">
+                  {gameObj.stack}
+                </span>
+              </p>
 
             </div>
           )
