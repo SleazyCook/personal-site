@@ -11,7 +11,7 @@ const Home = () => {
       
       <br />
 
-      <div className="flex justify-center mb-48">
+      <div className="flex justify-center mb-40">
         <Preview/>
       </div> 
 

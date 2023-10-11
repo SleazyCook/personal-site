@@ -2,9 +2,10 @@ import React from 'react';
 import Footer from '../app/Footer';
 import {websiteData} from "./WebsiteData";
 
-import {FaUserAstronaut} from 'react-icons/fa';
-import {HiUserGroup} from 'react-icons/hi';
-import {BsGithub} from 'react-icons/bs'
+// React Icons
+import { FaUserAstronaut } from 'react-icons/fa';
+import { HiUserGroup } from 'react-icons/hi';
+import { BsGithub } from 'react-icons/bs'
 
 const Websites = () => {
   return (
@@ -19,12 +20,12 @@ const Websites = () => {
             {websiteObj.name} </a></p>
 
             <p className="text-center">
-              {websiteObj.group ?  <>  Group project </> : <>Solo project</>}
+              {websiteObj.group ?  <> <span className='inline-block'><HiUserGroup /></span> Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
               &nbsp;| &nbsp;
               <a 
                 href={websiteObj.github} target="_blank"
                 className="transition-all ease-in hover:text-gray-500">
-                  GitHub</a>
+                  <span className='inline-block'><BsGithub /></span> GitHub</a>
               
             </p>
 

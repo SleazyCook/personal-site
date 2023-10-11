@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
 
-    <>
+    <div className='mt-10'>
       {contact.map((contactObj) => {
         return (
           <div key={contactObj.id} className='text-center mx-10 text-xl'>
@@ -64,7 +64,7 @@ const Contact = () => {
 
       <Footer />
     
-    </>
+    </div>
   )
 }
 
