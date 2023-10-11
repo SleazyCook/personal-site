@@ -5,10 +5,9 @@ import {gamesData} from './GamesData';
 const Games = () => {
   return (
     <div className="mx-10">
-      <br />
-      <br />
+
       {/* Project Section */}
-      <div className="max-w-[600px] mx-auto text-center">
+      <div className="max-w-[600px] mx-auto mt-10 text-center">
 
         {gamesData.map((gameObj) => {
           return (
@@ -38,7 +37,7 @@ const Games = () => {
         })}
 
       </div>
-      <br />
+
       <Footer />
     </div>
   )

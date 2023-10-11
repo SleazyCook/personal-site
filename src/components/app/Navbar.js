@@ -64,8 +64,8 @@ const Navbar = () => {
           <h1 className='text-3xl font-serif'><a href="https://drewford.dev">
             <span>Developed by </span>
             <span className='font-swash'>Drewford</span>
-            <br />
-            <span className='text-lg overline'>Andrew Cook - Web Developer</span>
+
+            <span className='block text-lg overline'>Andrew Cook - Web Developer</span>
           </a></h1>
 
           {/* Hamburger Button */}

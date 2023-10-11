@@ -23,13 +23,11 @@ const Certs = () => {
           Code Wars
         </p>
 
-        <div className="flex text">
+        <div className="flex text mb-10">
           <a className="mx-auto" target="_blank" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/sleazycook/badges/micro" alt="codewars badge micro" /></a>
         </div>
 
-        <br />
 
-        <br />
       </ul>
 
     </div>

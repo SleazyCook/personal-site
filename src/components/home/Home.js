@@ -4,30 +4,21 @@ import Footer from '../app/Footer';
 
 const Home = () => {
   return (
-    <div id="home-container" className="bg-black ">
-      <br />
-      <br />
-      <br />
+    <div id="home-container" className="bg-black h-[90svh]">
 
-      <img className="mx-auto" alt="del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
+
+      <img className="pt-20 mx-auto" alt=" del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
       
       <br />
 
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-48">
         <Preview/>
-      </div>
+      </div> 
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       
       <Footer />
 
-      <br />
-      <br />
 
 
     </div>

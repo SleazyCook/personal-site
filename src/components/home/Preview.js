@@ -16,8 +16,8 @@ const Preview = () => {
 
   return(
     <div >
-      <br />
-      <div className='flex items-center self-center max-w-[1000px]'>
+
+      <div className='flex items-center self-center max-w-[1000px] mt-6'>
         <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={sliderLeft} size={40} />
         <div id='slider' className="w-full h-full overflow-x-scroll scroll scrollbar-hide whitespace-nowrap scroll-smooth 
         ">

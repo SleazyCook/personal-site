@@ -9,9 +9,8 @@ import {BsGithub} from 'react-icons/bs'
 const Websites = () => {
   return (
     <div className="mx-10">
-      <br />
-      <br />
-      <div className="max-w-[600px] mx-auto text-center">
+
+      <div className="max-w-[600px] mx-auto mt-10 text-center">
 
         {websiteData.map((websiteObj) => {
           return (

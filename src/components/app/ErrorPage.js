@@ -4,7 +4,7 @@ const ErrorPage = () => {
   return (
     <div>
       <p>
-        404 Page Not Found. <br />
+        404 Page Not Found. 
         Try again later !
       </p>
     </div>

@@ -24,23 +24,15 @@ const About = () => {
 
   return (
     <div className="mx-10">
-      <br />
-      <br />
-      <p className='text-center text-2xl underline'>My Story</p>
-      <br />
-      <p className="max-w-[600px] mx-auto">
+      
+      <p className='text-center text-2xl underline mt-8'>My Story</p>
+      <p className="max-w-[600px] mx-auto mt-4">
         {story.map((storyObj) => {
           return (
-            <>
               <span key={storyObj.id} className='block mb-4 indent-6'>{storyObj.text}</span>
-            </>
           )
         })}
-
       </p>
-
-      <br />
-      <br />
 
       <Footer />
     </div>
