@@ -6,7 +6,6 @@ const Certs = () => {
     <div >
       <ul className="text-center">
 
-
         {certsData.map((certsObj) => {
           return (
               <li key={certsObj.id} className='mb-4'>
@@ -26,7 +25,6 @@ const Certs = () => {
         <div className="flex text mb-10">
           <a className="mx-auto" target="_blank" href="https://www.codewars.com/r/C6HkBg"><img src="https://www.codewars.com/users/sleazycook/badges/micro" alt="codewars badge micro" /></a>
         </div>
-
 
       </ul>
 

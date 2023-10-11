@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div id="home-container" className="bg-black h-[90svh]">
 
-
       <img className="pt-20 mx-auto" alt=" del toro quote" src="https://i.imgur.com/vxhBtD8.png"></img>
       
       <br />
@@ -15,11 +14,7 @@ const Home = () => {
         <Preview/>
       </div> 
 
-
-      
       <Footer />
-
-
 
     </div>
   )

@@ -18,7 +18,7 @@ const Games = () => {
           return (
             <div key={gameObj.id}>
               <p className="text-center text-xl transition-all ease-in hover:text-gray-500"><a href={gameObj.link} target="_blank">
-            {gameObj.name}</a></p>
+                {gameObj.name}</a></p>
 
               <p className="text-center">
                 {gameObj.group ?  <><span className='inline-block'><HiUserGroup /></span>  Group project </> : <><span className='inline-block'><FaUserAstronaut /></span> Solo project</>}
