@@ -30,10 +30,8 @@ const Websites = () => {
             </p>
 
             <p>{websiteObj.description}
-              <br />
               <span className=" block text-center text-sm text-gray-500 overline">
                 {websiteObj.stack} </span>
-              <br />
             </p>
             
           </div>

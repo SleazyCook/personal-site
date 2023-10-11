@@ -30,11 +30,9 @@ const Games = () => {
             </p>
 
             <p>{gameObj.description}
-              <br />
               <span className="block text-center text-sm text-gray-500 overline">
                 {gameObj.stack}
               </span>
-            <br />
           </p>
 
             </div>
