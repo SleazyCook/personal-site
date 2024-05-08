@@ -29,13 +29,13 @@ const Navbar = () => {
       name: "Skills",
       link: "skills"
     },
+    // {
+    //   id: 5,
+    //   name: "About",
+    //   link: "about"
+    // },
     {
       id: 5,
-      name: "About",
-      link: "about"
-    },
-    {
-      id: 6,
       name: "Contact",
       link: "contact"
     }
