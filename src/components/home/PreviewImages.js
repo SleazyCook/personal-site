@@ -2,6 +2,12 @@ import { useLinkClickHandler } from "react-router-dom";
 
 export const previewData = [
   {
+    id: 4,
+    name: "Curse of Strahd: Plight of the Sunseekers",
+    img: "https://i.imgur.com/fx9tAT8.png",
+    link: "https://sunseekers.drewford.dev/"
+  },
+  {
     id: 1,
     name: "Cozy Cuddles",
     img: "https://i.imgur.com/OjdPoW7.png",
@@ -14,16 +20,16 @@ export const previewData = [
     link: "https://watch-marathon.netlify.app"
   },
   {
+    id: 13,
+    name: "Curse of Strahd: Durst Manor",
+    img: "https://i.imgur.com/q1UVNrk.png",
+    link: "https://death-house.drewford.dev"
+  },
+  {
     id: 3,
     name: "Card Games | by Web Slammers",
     img: "https://i.imgur.com/YlTkEuV.png",
     link: "https://card-slam.netlify.app"
-  },
-  {
-    id: 4,
-    name: "Curse of Strahd: Plight of the Sunseekers",
-    img: "https://i.imgur.com/fx9tAT8.png",
-    link: "https://sunseekers.drewford.dev/"
   },
   {
     id: 5,
@@ -67,20 +73,12 @@ export const previewData = [
     img: "https://i.imgur.com/OkMa0xM.png",
     link: "https://poster-children.netlify.app/"
   },
-
   {
     id: 12,
     name: "Delavega Autoplex",
     img: "https://i.imgur.com/WWvB4QC.png",
     link: "https://delavegaautoplex.netlify.app"
   },
-  {
-    id: 13,
-    name: "Curse of Strahd: Durst Manor",
-    img: "https://i.imgur.com/q1UVNrk.png",
-    link: "https://death-house.drewford.dev"
-  },
-
   {
     id: 14,
     name: "Pokemon Picker",
